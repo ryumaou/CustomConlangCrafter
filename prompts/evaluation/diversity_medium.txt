@@ -1,0 +1,89 @@
+Please analyze the following documentation for the constructed language and return the typological analysis as a JSON object.
+
+A hypothetical language has the following phonology:
+=== START ===
+{phonology}
+=== END ===
+
+It has the following grammar:
+
+=== START ===
+{grammar}
+=== END ===
+
+It has the following lexicon:
+
+=== START ===
+{lexicon}
+=== END ===
+
+
+## JSON Schema to Populate
+
+{
+  "analysis_timestamp_utc": "{current_utc_iso_timestamp}",
+  "typology": {
+    "wals_81A_svo_order": {
+      "value": "SVO | SOV | VSO | VOS | OVS | OSV | No Dominant Order | null",
+      "confidence": "High | Medium | Low"
+    },
+    "wals_85A_adpositions": {
+      "value": "Prepositions | Postpositions | Inpositions | No Adpositions | null",
+      "confidence": "High | Medium | Low"
+    },
+    "wals_87A_adjective_noun": {
+      "value": "Adjective-Noun | Noun-Adjective | null",
+      "confidence": "High | Medium | Low"
+    },
+    "wals_20A_fusion": {
+      "value": "Isolating | Agglutinative | Fusional | null",
+      "confidence": "High | Medium | Low"
+    },
+    "wals_26A_affixation": {
+      "value": "Strongly Suffixing | Weakly Suffixing | Equal Prefixing/Suffixing | Weakly Prefixing | Strongly Prefixing | null",
+      "confidence": "High | Medium | Low"
+    },
+    "wals_13A_tone": {
+      "value": "Tonal | Non-tonal | null",
+      "confidence": "High | Medium | Low"
+    },
+    "wals_30A_gender_count": {
+      "value": "None | Two | Three | Four | Five or more | null",
+      "confidence": "High | Medium | Low"
+    },
+    "wals_49A_case_count": {
+      "value": "None (0-1) | Minimal (2-3) | Moderate (4-5) | Extensive (6+) | null",
+      "confidence": "High | Medium | Low"
+    },
+    "wals_alignment": {
+      "value": "Accusative | Ergative | Active-Stative | Split | null",
+      "confidence": "High | Medium | Low"
+    },
+    "wals_87B_relative_clause_order": {
+      "value": "Head-initial | Head-final | Mixed | null",
+      "confidence": "High | Medium | Low"
+    },
+    "wals_genitive_order": {
+      "value": "Genitive-Noun | Noun-Genitive | null",
+      "confidence": "High | Medium | Low"
+    },
+    "wals_question_marking": {
+      "value": "Intonation | Particle | Morphological | Inversion | null",
+      "confidence": "High | Medium | Low"
+    },
+    "phoneme_inventory": {
+      "vowels": "Small (≤5) | Medium (6–8) | Large (≥9) | null",
+      "consonants": "Small (≤20) | Medium (21–35) | Large (≥36) | null",
+      "confidence": "High | Medium | Low"
+    },
+    "valence_morphology": {
+      "causative": "Yes | No | null",
+      "passive": "Yes | No | null",
+      "applicative": "Yes | No | null"
+    },
+    "numeral_classifiers": {
+      "value": "Classifier language | Non-classifier | null",
+      "confidence": "High | Medium | Low"
+    }
+  }
+}

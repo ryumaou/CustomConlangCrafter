@@ -72,6 +72,16 @@ python src/run_pipeline.py --language-id <id> --steps translation --translation-
 
 Pass `--translation-sketch-update` to feed new vocabulary and grammar rules introduced during translation back into the sketch for each subsequent sentence, expanding the language as translation proceeds (constructive translation).
 
+## WALS Feature Extraction
+
+To extract WALS-style typological features (word order, morphology, phoneme inventory, etc.) for a generated language:
+
+```bash
+python src/extract_wals_features.py --language-id <id>
+```
+
+Results are saved to `output/languages/<id>/evaluation/diversity_analysis.json`.
+
 ## Improvements
 
 This implementation includes minor improvements to the system used for results from our paper:
