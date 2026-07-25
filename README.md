@@ -83,14 +83,12 @@ This implementation includes minor improvements to the system used for results f
 ## Citation
 
 ```bibtex
-@article{conlangcrafter2025,
-    title={ConlangCrafter: Constructing Languages with a Multi-Hop LLM Pipeline},
-    author={Morris Alper and Moran Yanuka and Raja Giryes and Ga{\v{s}}per Begu{\v{s}}},
-    year={2025},
-    eprint={2508.06094},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL},
-    url={https://arxiv.org/abs/2508.06094}
+@inproceedings{alper2026conlangcrafter,
+  title={ConlangCrafter: Constructing languages with a multi-hop LLM pipeline},
+  author={Alper, Morris and Yanuka, Moran and Giryes, Raja and Begus, Gasper},
+  booktitle={Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  pages={9318--9349},
+  year={2026}
 }
 ```
 
