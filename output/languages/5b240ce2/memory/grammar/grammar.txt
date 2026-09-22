@@ -1,0 +1,402 @@
+# Grammar
+
+## Morphology
+
+- Overall profile: strongly polysynthetic but mostly agglutinative. Verbs are templatic and can index A(ctor), U(ndergoer), and one oblique argument; the sole obligatory TAM category is aspect (IPFV vs PFV).
+  - Template (typical; optional slots in parentheses): A- + [INCORPORATED NOUN] + (CAUS ka-/kʷo-) + (DISTR s-) + ROOT + (RECP/MID -ri/-ru) + (APPL + OBL(index)) + (U(index) (+PL)) + ASP
+    - Notes:
+      - CAUS and DISTR may co-occur; the fixed order is CAUS outside DISTR (… + CAUS + DISTR + ROOT …). Semantics are compositional: CAUS introduces an external causer over a (possibly) distributive event.
+      - OBL(index) appears only when an applicative is present.
+      - U(index) appears only when a U argument is licensed (e.g., not with agentive intransitives).
+      - Strict exponence: homophonous morphemes do not contract (e.g., -tu-tu = 2SG.U + IPFV).
+      - Exception in VP coordination: the A- prefix appears only on the first verb; subsequent coordinated verbs omit A- and display a floating H tonal echo at their left edge (see Syntax: Coordination).
+  - Example (basic transitive; SOV, with obligatory A-pronoun):
+    í-ke kʷó.ruk-no ú-mú.rō-l-ko
+    1SG-AGT dog-PAT 1SG.A-see-3AN.U-PFV
+    “I saw the dog.”
+
+- Active–stative alignment in argument marking and agreement:
+  - Agentive intransitives take A-marking; patientive intransitives take U-marking.
+  - Agentive intransitive:
+    í-ke í-pē.ji-ti
+    1SG-AGT 1SG.A-go-IPFV
+    “I am going.”
+  - Patientive intransitive:
+    í-ne hē.nʲi-nʲi-ti
+    1SG-PAT be.tired-1SG.U-IPFV
+    “I am tired.”
+
+- Case on nouns: minimal two-way core case with front/back allomorphy and tone polarity (suffixes surface with low tone after H-final stems).
+  - -ke/-ko = AGT; -ne/-no = PAT (PAT causes contextual palatalization: -ne → [nʲe])
+  - Case and number stack as N-PL-CASE; harmony (backness) applies across the noun word.
+  - Examples:
+    wá-ke kʷó.ruk-ko plēn-ne wi-tɬé.ke-ar-ke
+    3SG.AN-AGT dog-AGT man-PAT 3AN.A-cut-3HUM.U-PFV
+    “The dog cut the man.”
+
+    ā-ke pwā.tu-lu-no ka-prē.ti-ar-ke
+    3SG.HUM-AGT child-PL-PAT CAUS-eat-3HUM.U-PFV
+    “He/she fed the children.”
+
+    wá-ke plēn-ne wi-tɬé.ke-ar-ke
+    3SG.AN-AGT man-PAT 3AN.A-cut-3HUM.U-PFV
+    “It (animate) cut the man.”
+
+    kʷó.ruk nʲē kʷō.lun-ko
+    dog LINK house-AGT
+    “the dog’s house (AGT)”
+
+    kʷō.ruk.kʷō.lun-ko → [kʷō.rukʷō.lùŋkʷò]
+    dog.house-AGT
+    “(AGT of) the doghouse” (k → [kʷ] by adjacency to back vowels)
+  - In possessive DPs, possessors are pre-nominal with the linker nʲē: [POSS nʲē HEAD-CASE]. The possessed head noun bears the clausal case appropriate to its syntactic role (AGT vs PAT); the linker nʲē is purely relational and does not itself carry case. The standalone “dog’s house (AGT)” example above illustrates case on the possessed head NP in isolation.
+
+- Independent pronouns (core set; obligatory for A; U-pronouns are used when U is pronominal-only or for emphasis/focus, otherwise U is realized by the NP and verbal indexing)
+  - 1SG í; 2SG tí; 3SG.HUM ā; 3SG.AN wá; 3SG.IN hù. Plural forms exist and take regular number morphology: 1PL í-li, 2PL tí-li, 3PL.HUM ā-li, 3PL.AN wá-li, 3PL.IN hù-lu. Case and number stack on pronouns as PRON-PL-CASE (harmony applies).
+  - Agreement and resolution for A-pronouns:
+    - With coordinated or plural A-subjects, use the matching 3PL A-pronoun; with mixed genders, resolve to human > animate > inanimate.
+    - Many speakers also allow the 3SG.HUM pronoun as a pragmatic default for groups when a salient human controller is understood; this is more colloquial.
+    - A-prefixes are number-insensitive; A number is expressed only by the obligatory independent A-pronoun (see Verbal cross-reference).
+  - Use of U-independent pronouns:
+    - When S/U is pronominal-only (no lexical NP), an independent U-pronoun is obligatory (this includes patientive intransitives). Otherwise, U is realized by the NP and verbal indexing; an independent U-pronoun is reserved for emphasis/focus.
+  - Examples:
+    í-ke kʷó.ruk-no ú-mú.rō-l-ko
+    1SG-AGT dog-PAT 1SG.A-see-3AN.U-PFV
+    “I saw the dog.”
+
+    tí-ke ēlkɬ-ne ti-prē.ti-ʃ-ti
+    2SG-AGT meat-PAT 2SG.A-eat-3IN.U-IPFV
+    “You are eating the meat.”
+
+- Verbal cross-reference is polypersonal (strict exponence: homophonous suffixes do not contract; e.g., -tu-tu = 2SG.U + IPFV):
+  - A-index prefixes (front/back allomorphs; number-insensitive): 1SG i-/u-, 2SG ti-/tu-, 3SG.HUM a-, 3SG.AN wi-/wu-, 3SG.IN hi-/hu- (vowel chosen by backness harmony). A number is carried by the independent A-pronoun.
+  - U-index suffixes: 1(=1SG/1PL) -nʲi/-nu, 2(=2SG/2PL) -ti/-tu, 3SG.HUM -ar, 3SG.AN -l, 3SG.IN -ʃ. First/second-person U-indexing is number-neutral; plural U can be optionally marked by -li/-lu after the person morpheme. Third-person U can likewise take optional plural -li/-lu.
+  - Examples:
+    wá-ke ēlkɬ-ne wi-prē.ti-ʃ-ke
+    3SG.AN-AGT meat-PAT 3AN.A-eat-3IN.U-PFV
+    “It (animate) ate the meat.”
+
+    í-ke kʷó.ruk-lu-no ú-mú.rō-l-lu-ko
+    1SG-AGT dog-PL-PAT 1SG.A-see-3AN.U-PL-PFV
+    “I saw the dogs.”
+
+    ā-ke sklú.po-lu-no a-tʲê.ɬe-l-li-ke
+    3SG.HUM-AGT fish-PL-PAT 3HUM.A-hunt-3AN.U-PL-PFV
+    “He/she hunted the fish (plural).”
+
+    ā-ke a-mú.rō-nu-lu-ko
+    3SG.HUM-AGT 3HUM.A-see-1.U-PL-PFV
+    “He/she saw us.”
+
+    wá-ke wi-mú.rō-tu-lu-ko
+    3SG.AN-AGT 3AN.A-see-2.U-PL-PFV
+    “It (animate) saw you (pl).”
+
+- Noun incorporation is productive (especially of inanimates and mass nouns). Incorporated arguments are not syntactic cores and are not case-marked nor pronominally doubled; A remains obligatorily pronoun-doubled; U-index remains on the verb.
+  - Examples:
+    í-ke ú-kʷú.lo-ō.mo-ʃ-ko
+    1SG-AGT 1SG.A-water-drink-3IN.U-PFV
+    “I drank water.”
+
+    í-ke ú-kʷú.lo-ō.mo-ʃ-tu
+    1SG-AGT 1SG.A-water-drink-3IN.U-IPFV
+    “I am drinking water.”
+
+    í-ke kʷú.lo-no í-ō.mo-ʃ-ko
+    1SG-AGT water-PAT 1SG.A-drink-3IN.U-PFV
+    “I drank the water.”
+
+    í-ke ú-kʷú.lo-ō.mo-po-ar-ʃ-ko
+    1SG-AGT 1SG.A-water-drink-BEN-3HUM.OBL-3IN.U-PFV
+    “I gave (him/her) a drink of water.”
+
+- Oblique indexing via applicatives (inventory and behavior):
+  - Applicatives: -pe/-po (BEN), -tɬe/-tɬo (LOC), -re/-ro (COM, including comitative/instrumental), -ke/-ko (GOAL/ALLATIVE; distinct from PFV, lexically L-toned). Only one applicative typically appears; additional roles prefer adpositions/periphrasis. After the applicative, an oblique person/gender suffix indexes the beneficiary/goal/location/comitative; the OBL index set equals the U-index set (including optional plural -li/-lu). When an applicative licenses an overt oblique NP, that NP is bare (no core case).
+  - Examples:
+    í-ke ēlkɬ-ne pwā.tu í-pjá.li.kē-pe-ar-ʃ-ke
+    1SG-AGT meat-PAT child 1SG.A-cook-BEN-3HUM.OBL-3IN.U-PFV
+    “I cooked the meat for the child.”
+
+    ā-ke kʷō.lun a-pē.ji-tɬe-ʃ-ti
+    3SG.HUM-AGT house 3HUM.A-go-LOC-3IN.OBL-IPFV
+    “He/she is going at/around the house.”
+
+    wá-ke ēlkɬ-ne kʷó.ruk wi-mú.rō-po-l-ʃ-ke
+    3SG.AN-AGT meat-PAT dog 3AN.A-see-BEN-3AN.OBL-3IN.U-PFV
+    “It (animate) showed it (inanimate) to the dog.”
+
+    ā-ke plēn a-pē.ji-kè-ar-ke
+    3SG.HUM-AGT person 3HUM.A-go-GOAL.L-3HUM.OBL-PFV
+    “He/she went to the person.”
+
+    í-ke tɬé.ke-nēlʃ í-pē.ji-re-ʃ-ti
+    1SG-AGT cut-INSTR 1SG.A-go-COM-3IN.OBL-IPFV
+    “I am going with the knife.”
+  - Disambiguation note (GOAL vs PFV vs preposition kè ‘to’):
+    - kè ‘to’ is a preposition before a PAT-marked NP (prepositions select PAT), e.g., í-ke kè kʷō.lun-no í-pē.ji-ti “I am going to the house.”
+    - GOAL -ke/-ko is an applicative inside the verb immediately after the root and before OBL/U/PL, and is always lexically L-toned, e.g., í-ke kʷō.lun í-pē.ji-kè-ʃ-ti “I am going to the house (to it).”
+    - PFV -ke/-ko is clause-final after U/PL; its tone follows polarity, e.g., í-ke í-pē.ji-kè “I went.”
+
+- Aspect (the only obligatory TAM category): IPFV -ti/-tu vs PFV -ke/-ko; suffix tone is polarity-sensitive (H-final stems select L-toned suffixes); backness harmony applies. Homophonous sequences with U (e.g., -tu-tu) surface faithfully (no haplology).
+  - Examples:
+    í-ke í-pē.ji-ti
+    1SG-AGT 1SG.A-go-IPFV
+    “I am going.”
+
+    í-ke ú-mú.rō-tu
+    1SG-AGT 1SG.A-see-IPFV
+    “I am (habitually) seeing/looking.”
+
+    í-ke í-prē.tí-kè
+    1SG-AGT 1SG.A-eat-PFV.L
+    “I ate.”
+
+- Three genders (human, animate non-human, inanimate) with regular number:
+  - Plural -li/-lu on nouns; gender is reflected in 3rd-person agreement (A- and U- sets).
+  - Example:
+    ā-ke pwā.tu-lu-no ka-prē.ti-ar-ke
+    3SG.HUM-AGT child-PL-PAT CAUS-eat-3HUM.U-PFV
+    “He/she fed the children.”
+
+- Derivation (mostly one morpheme = one function):
+  - Distributive/pluractional s- (prefix; carries a floating L that downsteps the next H; creates stɬ- onsets with tɬ- roots).
+    - Examples:
+      wá-ke stráʃ-lu-no wi-s-tɬé.ke-ʃ-li-ke
+      3SG.AN-AGT stone-PL-PAT 3AN.A-DISTR-cut-3IN.U-PL-PFV
+      “He chopped the stones up (one by one).”
+
+      í-ke stráʃ-ne í-s-tɬé.ke-ʃ-ke → [í-ke stráʃ-ne í-s-tɬé.ke !ké]
+      1SG-AGT stone-PAT 1SG.A-DISTR-cut-3IN.U-PFV
+      “I chopped the stone up.” (In this token, the PFV suffix is H and is downstepped by the floating L of s-.)
+  - Causative ka-/kʷo- (prefix; front/back): adds an external A that must be both cross-referenced on the verb and expressed by a pronoun.
+    - Example:
+      ā-ke pwā.tu-no ka-pē.ji-ar-ke
+      3SG.HUM-AGT child-PAT CAUS-go-3HUM.U-PFV
+      “He/she made the child go.”
+  - CAUS + DISTR co-occurrence (fixed order CAUS > DISTR):
+    - Example:
+      ā-ke pwā.tu-no ka-s-pē.ji-ar-ti
+      3SG.HUM-AGT child-PAT CAUS-DISTR-go-3HUM.U-IPFV
+      “He/she is making the child go around repeatedly.”
+  - Reciprocal/middle -ri/-ru (suffix; after the root but before applicatives): suppresses overt U NP/pronoun (no full U NP in core), but a U-index still appears.
+    - Examples:
+      ā-li-ke a-tʲê.ɬe-ri-ar-li-ke
+      3PL.HUM-AGT 3HUM.A-hunt-RECP-3HUM.U-PL-PFV
+      “They hunted each other.” (or: “They hunted among themselves.”)
+
+      tí-ke tu-mú.rō-ru-tɬe-l-tu-tu
+      2SG-AGT 2SG.A-see-MID-LOC-3AN.OBL-2SG.U-IPFV
+      “You are looking after yourself (around/with respect to the dog).” (both -tu morphemes surface)
+  - Instrumental/result nominalizer -nēlʃ (back variant -nōlʃ in some idiolects): derives ‘tool/implement for V-ing’ or ‘result of V’.
+    - Examples:
+      tɬé.ke-nēlʃ
+      cut-INSTR
+      “cutter; knife”
+
+      í-ke tɬé.ke-nēlʃ í-pē.ji-re-ʃ-ti
+      1SG-AGT cut-INSTR 1SG.A-go-COM-3IN.OBL-IPFV
+      “I am going with the knife.”
+
+- Non-finite forms and nominalizations:
+  - Action nominals: the IPFV suffix (-ti/-tu) appears without A/U indexing, yielding a verbal noun.
+    - Example:
+      kʷó.ruk nʲē prē.ti-ti-ke
+      dog LINK eat-IPFV.NMLZ-AGT
+      “the dog’s eating (AGT)”
+  - Result/state nominals: PFV suffix lexicalized with L tone.
+    - Example:
+      tɬé.ke-kè
+      cut-PFV.L
+      “a cut, incision”
+
+- Phonology-aware allomorphy:
+  - Backness harmony: many affixes have front/back pairs (-i/-u, -e/-o) that are selected by the stem’s backness. Harmony can span compounds; disharmonic compounds are rare, and light clitics can disrupt the domain. When no non-low vowel in the stem sets backness (stems with only /a/), suffixes default to front (-i, -e).
+  - Fixed height classes (no productive height alternation): each morpheme has a lexically fixed vowel height; only backness alternates. For reference:
+    - High-class vowels (alternate i/u): A-prefixes (i-/u-, ti-/tu-, hi-/hu-, wi-/wu-), IPFV -ti/-tu, RECP/MID -ri/-ru, 1/2 person U/OBL -nʲi/-nu, -ti/-tu.
+    - Mid-class vowels (alternate e/o): PFV -ke/-ko, AGT/PAT case -ke/-ko, -ne/-no, applicatives -pe/-po, -tɬe/-tɬo, -re/-ro, GOAL -ke/-ko.
+    - Morphemes with /a/ (no height alternation): CAUS ka-/kʷo- (front/back realized via a/o and rounding).
+  - Terminological clarification: only backness alternates productively; there is no height harmony. Any mention of “height harmony” elsewhere should be read as height-class membership of morphemes, not as a phonological alternation rule.
+  - Rounding assimilation: adjacency to /o u/ rounds /k/ → [kʷ] (or [ɣʷ] under lenition).
+  - Intervocalic lenition is mandatory inside the prosodic word (V_V).
+  - Morpheme-juncture simplification (degemination): when morpheme concatenation produces identical obstruent clusters (e.g., k+k), they degeminate to a single consonant; if the resulting consonant is in V_V position, regular intervocalic lenition applies. This phonological simplification does not contradict “strict exponence,” which is morphological rather than segmental.
+  - Contextual palatalization: PAT -ne (-nʲe phonetically) palatalizes a preceding coronal; only the adjacent segment palatalizes in linked sequences.
+  - Tone notation conventions: To keep examples readable, polarity-driven low tone on case and aspect suffixes (e.g., AGT/PAT -ke/-ko, -ne/-no; aspect -ke/-ko, -ti/-tu) is often left unmarked. When L tone is crucial or pedagogically relevant, it may be indicated with a grave accent (e.g., -kè). Downstep is indicated with “!” in phonetic brackets.
+  - Order of tonal operations: Suffixal polarity (H vs L on aspect/case) is computed after all derivational morphology (including s-). The floating L of s- can downstep a following H-toned suffix without altering polarity selection.
+    - Worked derivation (downstep from s-):
+      Underlying: /í- s- tɬé.ke -ʃ -ke/
+      After derivation: s- adds a floating L before the H-final stem [tɬé.ke]; polarity selects H on PFV; the floating L downsteps the PFV H → [í-s-tɬé.ke !ké].
+  - Examples:
+    kʷó.ruk-ko → [kʷó.ru.ɣʷò]
+    dog-AGT
+    “dog (AGT)”
+
+    í-ke kʷú.lo-no í-ō.mo-ʃ-ko → [í-ke kʷú.lo-no í-ó.mo-ʃ.kʷò]
+    1SG-AGT water-PAT 1SG.A-drink-3IN.U-PFV
+    “I drank the water.”
+
+    í-ke í-pē.ji-ti [í-ke í-βē.ji-ði]
+    1SG-AGT 1SG.A-go-IPFV
+    “I am going.”
+
+    wá-ke kʷó.ruk-no wu-mú.rō-l-tu → [wu-mú.rō-l-tu]
+    3SG.AN-AGT dog-PAT 3AN.A-see-3AN.U-IPFV
+    “It (animate) is seeing the dog.”
+
+    ā-ke tjá.wen-ne a-mú.rō-ʃ-ko → [ā-ke tʲá.wenʲe …]
+    3SG.HUM-AGT name-PAT 3HUM.A-see-3IN.U-PFV
+    “He/she saw the (person’s) name.”
+
+
+## Syntax
+
+- Basic order: SOV; the verb is clause-final even with heavy polysynthesis.
+  - The A argument is obligatorily overtly expressed by an independent pronoun, even when full NPs are present or an argument is cross-referenced on the verb. U is typically realized by the NP and verbal indexing; an independent U pronoun is used when U is pronominal-only (obligatory in that case, including patientive intransitives) or for emphasis/focus. Exceptions include incorporated themes and derivationally suppressed roles (e.g., reciprocal/middle), which lack an overt U NP/pronoun but still require verbal indexing.
+  - Examples:
+    ā-ke plēn-ke sklú.po-no a-tʲê.ɬe-l-ke
+    3SG.HUM-AGT man-AGT fish-PAT 3HUM.A-hunt-3AN.U-PFV
+    “The man hunted the fish.”
+
+    í-ke ú-kʷú.lo-ō.mo-ʃ-ko
+    1SG-AGT 1SG.A-water-drink-3IN.U-PFV
+    “I drank water.”
+
+- Alignment and case in syntax:
+  - Intransitives choose A- or U-pattern by semantics (volition/control). Case matches: AGT-marked S for agentive intransitives, PAT-marked S for patientive intransitives (see morphology examples above).
+
+- Mixed/balanced head directionality across phrases:
+  - Adpositions split: some are prepositions (e.g., kè ‘to(ward)’, hē ‘from’) and some postpositions (e.g., tō ‘on’, plēn (archaic) ‘among (humans)’).
+    - Note on homophony: plēn ‘man’ is a common noun with regular case/number morphology, while plēn ‘among (humans)’ is an archaic postposition that takes a bare complement.
+    - Case governance: prepositions select PAT-marked complements; postpositions take bare complements.
+    - Examples:
+      í-ke kè kʷō.lun-no í-pē.ji-ti
+      1SG-AGT to house-PAT 1SG.A-go-IPFV
+      “I am going to the house.”
+
+      ā-ke ēlkɬ-ne stráʃ tō a-tɬé.ke-ʃ-ke
+      3SG.HUM-AGT meat-PAT stone on 3HUM.A-cut-3IN.U-PFV
+      “He/she cut the meat on the stone.”
+  - NPs: demonstratives and numerals are pre-nominal; possessors are pre-nominal with a linker nʲē: [POSS nʲē HEAD-CASE]. Property concepts are stative verbs; attributive modification uses a relative clause linked by nʲē ‘that/of’.
+    - Examples:
+      kʷó.ruk nʲē kʷō.lun-ko hù-ke hi-pē.ji-ti
+      dog LINK house-AGT 3SG.IN-AGT 3IN.A-go-IPFV
+      “Its (the dog’s) house is going/being moved.” (lit. “It goes (the house of the dog).”)
+
+      ā-ke [krî-l-ti nʲē] kʷó.ruk-ko a-tɬé.ke-ʃ-ke
+      3SG.HUM-AGT be.heavy-3AN.U-IPFV LINK dog-AGT 3HUM.A-cut-3IN.U-PFV
+      “The heavy dog cut it.”
+
+      í-ke [hē.nʲi-ar-ti nʲē] plēn-ne í-mú.rō-ar-ko
+      1SG-AGT be.tired-3HUM.U-IPFV LINK man-PAT 1SG.A-see-3HUM.U-PFV
+      “I saw the man who is tired.”
+
+- Clause structure and argument expression:
+  - Polypersonal agreement does not license pro-drop; the A-pronoun remains in all finite clauses. Only the U NP/pronoun may be absent when incorporated or derivationally suppressed (e.g., reciprocal/middle), though U indexing on the verb still appears.
+  - Incorporated nouns suppress the need for an overt U-phrase, but the A-pronoun still surfaces (see incorporation examples).
+  - Focus is typically NP-internal or clause-initial; verb position remains final.
+
+- Negation, interrogation, and focus:
+  - Clause negation is the L-toned preverbal proclitic nà=; it does not participate in harmony and downsteps the first H of the lexical stem (prefixal person morphology is excluded from the target domain).
+    - Examples:
+      í-ke kʷó.ruk-no nà=ú-mú.rō-l-tu → [nà=ú-!mú.rō-…]
+      1SG-AGT dog-PAT NEG=1SG.A-see-3AN.U-IPFV
+      “I am not seeing the dog.”
+
+      tí-ke ēlkɬ-ne nà=ti-prē.ti-kè
+      2SG-AGT meat-PAT NEG=2SG.A-eat-PFV.L
+      “You did not eat the meat.”
+  - Polar (yes/no) questions take a clause-final “echo-aspect” enclitic =Q that inverts the clause’s aspect: after IPFV (-ti/-tu) it surfaces as =ke/=ko; after PFV (-ke/-ko) it surfaces as =ti/=tu. It matches harmony and bears H tone (final rise).
+    - Examples:
+      í-ke kʷó.ruk-no ú-mú.rō-l-tu=ko?
+      1SG-AGT dog-PAT 1SG.A-see-3AN.U-IPFV=Q.PFV.BACK
+      “Am I seeing the dog?”
+
+      ā-ke plēn-ne a-tɬé.ke-ʃ-ke=ti?
+      3SG.HUM-AGT man-PAT 3HUM.A-cut-3IN.U-PFV=Q.IPFV.FRONT
+      “Did he/she cut the man?”
+  - Content questions: wh-words occupy the focused NP slot (often clause-initial); verb stays final.
+    - Examples:
+      í-ke kʷá-ne ú-mú.rō-ʃ-ko?
+      1SG-AGT what-PAT 1SG.A-see-3IN.U-PFV
+      “What did I see?”
+
+      ā-ke plēn kʷá-ne a-tʲê.ɬe-ʃ-ke?
+      3SG.HUM-AGT person what-PAT 3HUM.A-hunt-3IN.U-PFV
+      “Whom did he/she hunt?”
+  - Focus particle í (homophonous with 1SG pronoun but distinguished by position/tone) can reinforce narrow focus and carries H that downsteps a following H in the focused phrase.
+    - Example:
+      [kʷó.ruk]F í ā-ke plēn-ne a-mú.rō-ar-ko
+      dog FOC 3SG.HUM-AGT man-PAT 3HUM.A-see-3HUM.U-PFV
+      “It was the dog that the man saw.”
+  - Verum focus (assertion of polarity) is expressed by repeating the aspect suffix as a clause-final prosodic clitic with H tone (distinct from the Q enclitic).
+    - Example:
+      tí-ke ēlkɬ-ne ti-prē.ti-ti=ti
+      2SG-AGT meat-PAT 2SG.A-eat-IPFV=IPFV.EMPH
+      “You ARE eating the meat (indeed).”
+
+- Coordination and clause chaining:
+  - NP coordination uses jē ‘and’; disjunction is hē ‘or’. Conjunctions appear between coordinated items; the verb remains final.
+    - Example:
+      ā-li-ke plēn-ke jē kʷó.ruk-ko sklú.po-no a-tʲê.ɬe-l-ke
+      3PL.HUM-AGT man-AGT and dog-AGT fish-PAT 3HUM.A-hunt-3AN.U-PFV
+      “The man and the dog hunted the fish.”
+  - VP coordination keeps the A-prefix only on the first verb; subsequent coordinated verbs display a tonal echo: a floating H from the missing A-prefix docks to the left edge of the second verb.
+    - Example:
+      í-ke ēlkɬ-ne í-mú.rō-l-ko jē [H]tɬé.ke-ʃ-ke
+      1SG-AGT meat-PAT 1SG.A-see-3AN.U-PFV and H-cut-3IN.U-PFV
+      “I saw the meat and cut it.”
+  - Clause chaining with switch-reference: medial (non-final) verbs take -ne/-no = same-subject (SS) and -me/-mo = different-subject (DS); these replace aspect on medial clauses; the final clause carries normal aspect.
+    - Examples:
+      í-ke í-pē.ji-ne kʷó.ruk-no ú-mú.rō-l-ko
+      1SG-AGT 1SG.A-go-SS dog-PAT 1SG.A-see-3AN.U-PFV
+      “After I went, I saw the dog.” (same subject)
+
+      í-ke í-pē.ji-me wá-ke ēlkɬ-ne wi-mú.rō-ʃ-ke
+      1SG-AGT 1SG.A-go-DS 3SG.AN-AGT meat-PAT 3AN.A-see-3IN.U-PFV
+      “After I went, it (animate) saw the meat.” (different subject)
+    - Usage note (SR vs PAT homophony): SR -ne/-no and -me/-mo attach only to verbs (medial, replacing aspect), while PAT -ne/-no attaches only to nouns. They are prosodically and syntactically distinct.
+      - Illustration:
+        í-ke kʷó.ruk-no í-pē.ji-ne ú-mú.rō-l-ko
+        1SG-AGT dog-PAT 1SG.A-go-SS 1SG.A-see-3AN.U-PFV
+        “After I went, I saw the dog.” (PAT -no on the noun; SR -ne on the medial verb)
+
+- Subordination and complementation:
+  - Possessive linker nʲē is polyfunctional: it links possessors and also serves as a general relativizer/complementizer.
+  - Purpose can be expressed either (i) by the GOAL applicative on the matrix verb (for motion-to-purpose readings), or (ii) by the preposition kè ‘to’ selecting a nominalized complement with PAT case and no A/U indexing.
+    - Examples (option ii):
+      í-ke kè [prē.ti-ti-ne] í-pē.ji-ti
+      1SG-AGT to eat-IPFV.NMLZ-PAT 1SG.A-go-IPFV
+      “I am going to (for the purpose of) eating.”
+
+      í-ke kè [ā nʲē prē.ti-ti-ne] í-pē.ji-ti
+      1SG-AGT to 3SG.HUM LINK eat-IPFV.NMLZ-PAT 1SG.A-go-IPFV
+      “I am going to his/her eating (I am going so that he/she eats).”
+  - Reason typically uses a complement clause headed by nʲē with a perception/cognition verb.
+    - Example:
+      í-ke [wá-ke ēlkɬ-ne wi-prē.ti-kè nʲē] í-mú.rō-ʃ-ko
+      1SG-AGT 3SG.AN-AGT meat-PAT 3AN.A-eat-PFV.L COMP 1SG.A-see-3IN.U-PFV
+      “I saw that it (animate) had eaten the meat.”
+  - Finite complement clauses use nʲē with ordinary finite verb morphology and obligatory A-pronouns (subject to the same incorporation/derivational exceptions).
+    - Example:
+      í-ke [ā-ke plēn-ne a-tɬé.ke-ʃ-ke nʲē] ú-mú.rō-l-ko
+      1SG-AGT 3SG.HUM-AGT man-PAT 3HUM.A-cut-3IN.U-PFV COMP 1SG.A-see-3AN.U-PFV
+      “I saw that he/she cut the man.”
+
+- Adposition–applicative interplay:
+  - With a highly topical location/goal/beneficiary/instrument, use an applicative + OBL index; with less-integrated locations/goals, use adpositions; avoid redundancy when stacking.
+    - Example:
+      wá-ke kʷō.lun wi-pē.ji-tɬe-ʃ-ti
+      3SG.AN-AGT house 3AN.A-go-LOC-3IN.OBL-IPFV
+      “It is going at/around the house.”
+
+- Information structure and prosody in syntax:
+  - Focus position: narrow focus NP tends to be clause-initial; verb remains final; optional focus particle í (see above).
+  - Prosody: tone is lexical but interacts morphosyntax; suffix tone polarity (H-final stem → L-toned suffix) and floating L of certain derivational morphemes (e.g., s-) cause downstep across word boundaries. Clause-final position favors phrase-final stress, but tonal melodies carry the main contrasts.
+    - Example (downstep from distributive s-):
+      í-ke stráʃ-ne í-s-tɬé.ke-ʃ-ke → [í-ke stráʃ-ne í-s-tɬé.ke !ké]
+      1SG-AGT stone-PAT 1SG.A-DISTR-cut-3IN.U-PFV
+      “I chopped the stone up.”
+
+- Sample mini-text (showing SS chaining, distributive, negation, and echo-aspect Q):
+  í-ke í-pē.ji-ne stráʃ-li-ne í-s-tɬé.ke-ʃ-ke nà=ú-mú.rō-l-ko=tu?
+  1SG-AGT 1SG.A-go-SS stone-PL-PAT 1SG.A-DISTR-cut-3IN.U-PFV NEG=1SG.A-see-3AN.U-PFV=Q.IPFV
+  “I went, chopped the stones up, and didn’t I see it (then)?” (rhetorical yes/no; IPFV echoed)

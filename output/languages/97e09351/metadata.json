@@ -1,0 +1,15 @@
+{
+  "language_id": "97e09351",
+  "created_at": "2026-09-13 14:31:20",
+  "model": "gemini-1.5-flash",
+  "steps": [
+    "phonology",
+    "grammar",
+    "lexicon"
+  ],
+  "custom_constraints": null,
+  "parameters": {
+    "temperature": null,
+    "max_tokens": null
+  }
+}

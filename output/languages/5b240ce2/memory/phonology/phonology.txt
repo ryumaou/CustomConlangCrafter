@@ -1,0 +1,110 @@
+# Phonology
+
+## Consonants
+
+|               | Bilabial | Alveolar          | Postalveolar | Palatal | Velar      | Glottal |
+|---------------|----------|-------------------|--------------|---------|------------|---------|
+| Plosive       | p        | t (tʲ)            | —            | —       | k (kʷ)     | —       |
+| Nasal         | m        | n (nʲ)            | —            | —       | —          | —       |
+| Fricative     | —        | s, ɬ              | ʃ            | —       | —          | h       |
+| Approximant   | —        | r                 | —            | j       | w          | —       |
+| Lateral appr. | —        | l (lʲ)            | —            | —       | —          | —       |
+
+Notes: /tʲ, nʲ, lʲ/ are phonemic palatalized coronals; /kʷ/ is a phonemic labialized velar. [ŋ] occurs allophonically before /k/ and /kʷ/ (optionally [ŋʷ] before /kʷ/). The segment /w/ is a labiovelar approximant; it is placed in the Velar column for tabular convenience only.
+
+## Vowels
+
+|        | Front | Central | Back |
+|--------|-------|---------|------|
+| Close  | i     | —       | u    |
+| Mid    | e     | —       | o    |
+| Open   | —     | a       | —    |
+
+No phonemic length or nasal vowels.
+
+## Phonotactics
+
+Syllable template (C)(C)(C)V(C)(C)(C), with complex clusters up to three segments. Onsets:
+- Permitted two-consonant onsets are stop + liquid/glide (l, r, j, w, ɬ), e.g., pl-, pr-, pj-, pw-, tɬ-, tr-, kj-, kʷr-, etc. The lateral fricative /ɬ/ patterns as a “liquid” in these positions.
+- Three-consonant onsets are s + stop + liquid/glide (including /ɬ/), e.g., str-, skl-, stɬ-.
+- s + stop without a following liquid/glide (e.g., sp-, st-, sk-) is not permitted as a two-consonant onset word-internally or word-initially; such sequences only occur as the first two members of a three-consonant onset.
+- Single-consonant onsets include any consonant listed; single /ɬ/ onsets (e.g., ɬōr) are allowed.
+
+Codas favor sonorant + obstruent (+ s/ʃ/ɬ). The lateral fricative /ɬ/ patterns as a “liquid” in cluster slots in both two- and three-segment onsets, enabling unusual onsets like /s t ɬ V-/ and codas like /-l k ɬ/. No contrastive gemination.
+
+Regular allophony includes:
+- Nasal place assimilation: only velar assimilation is phonologized. /n/ → [ŋ] before /k/ and /kʷ/ (optionally [ŋʷ] before /kʷ/). Other place assimilations (e.g., [m] before bilabials) are at most optional and gradient in fast speech.
+- Intervocalic lenition: /p t k/ → [β ð ɣ] in V_V position within the prosodic word (including across morpheme boundaries). Secondary articulations are preserved under lenition: /tʲ/ → [ðʲ], /kʷ/ → [ɣʷ]. Where rounding assimilation (see below) applies to /k/, its lenited reflex is [ɣʷ].
+- Contextual palatalization (allophonic): alveolars /t n l r/ are realized palatalized [tʲ nʲ lʲ rʲ] when immediately followed by a front vocoid (/i, e, j/) within the same prosodic word, with no intervening consonant. This applies both tautosyllabically (e.g., trí → [t rʲí]) and across a syllable boundary (C.V with V = i/e). Inside clusters, only the segment immediately adjacent to the front vocoid palatalizes (e.g., stɬí → [s t ɬí], with no palatalization of /s/ or /t/ or /ɬ/). The sibilant /s/ and the lateral fricative /ɬ/ do not palatalize. Underlying palatalized coronals /tʲ nʲ lʲ/ remain palatalized in all contexts; in environments that also trigger contextual palatalization, neutralization with plain /t n l/ may occur. Morphological boundaries within the prosodic word do not block contextual palatalization.
+- Coarticulation with /j/ and phonological status: the language has phonemic palatalized coronals /tʲ nʲ lʲ/. Sequences /tj nj lj rj/ may arise across morpheme boundaries; when /j/ is tautosyllabic with the preceding coronal in onset position, these clusters surface as palatalized [tʲ nʲ lʲ rʲ], neutralizing any contrast with the phonemic palatalized series in that environment (intervocalically, lenited /tj/ surfaces as [ðʲ], identical to lenited /tʲ/). A distinction only surfaces when /j/ is heterosyllabic or in coda position (e.g., V.CjV or VCj.#), where [j] remains segmentally independent and no palatalization of the preceding coronal is triggered.
+- Rounding assimilation on velars (predictable): within the prosodic word, a plain /k/ that is immediately adjacent to /u/ or /o/ (whether tautosyllabically or across a syllable boundary, and regardless of morpheme boundary) is realized as [kʷ] (and as [ɣʷ] under intervocalic lenition). In this environment the /k/ ~ /kʷ/ contrast is neutralized. Outside these environments, /k/ remains [k] (minor phonetic rounding may occur but is non-contrastive and optional). This assimilation is triggered by adjacency to the back rounded vowels themselves; backness harmony typically ensures such adjacency only occurs in back harmonic domains, but the rule still applies in any disharmonic or compound contexts where adjacency arises. Palatal segments (e.g., /j/) are unaffected.
+
+## Suprasegmentals
+
+Tone: three level tones (H, M, L) with productive contours (HL, LH). Morphemes carry tonal melodies; floating L produces downstep (H !H). Suffixal tone is polarity-sensitive: a H-final stem selects an L-toned suffix (and vice versa).
+
+Tone notation in examples:
+- Acute = H, macron = M, grave = L, circumflex = HL (falling), caron = LH (rising), “!” = downstep (placed before the downstepped H).
+- Unmarked vowels are M by default unless altered by downstep or post-lexical sandhi.
+- When a tone melody spreads across multiple TBUs, only the first TBU of the span is marked; following TBUs that share the same tone are left unmarked for economy. Contours are fully marked on the syllable that bears them.
+
+Vowel harmony:
+- Backness harmonizes across the prosodic word: non-low vowels select front (i, e) vs. back (u, o) allomorphs consistently within a word; /a/ is neutral for backness.
+- Height harmony is primarily affixal: suffixes come in high vs. mid sets and choose the allomorph that matches the stem’s dominant height; stems themselves may freely mix high and mid vowels internally. The low vowel /a/ tends to select mid suffixes.
+- For high vowels, backness harmony is realized as -i (front, unrounded) vs. -u (back, rounded). In back rounded harmonic domains, adjacent plain /k/ is obligatorily realized as [kʷ] (or [ɣʷ] under lenition) by the rounding assimilation rule above, neutralizing the /k/ ~ /kʷ/ contrast there. Palatal segments (e.g., /j/) are unaffected by rounding harmony.
+- Stress is weak and phrase-final by default; tone is the primary suprasegmental contrast.
+
+## Word Shapes and Lexical Statistics
+
+Most content items are disyllabic or trisyllabic. Typical content-word shapes favor complex onsets in the first syllable (especially s + stop + liquid/glide and stop + liquid/glide), with a closed final syllable: patterns like CCV.CVC, CCCV.CVC, and CV.CVCC are common. Many content words end in an obstruent or a sonorant+obstruent cluster, and a few show three-consonant codas where the final segment is s/ʃ/ɬ. The lateral fricative behaves like a liquid in cluster slots, enabling frequent stɬ- onsets and codas such as -lkɬ. Monosyllabic content items exist but skew heavy: they often either have a CCC onset, a complex coda, or both; open monosyllabic content words are comparatively rare.
+
+Function items skew strongly monosyllabic and short, predominantly V or CV, with simple or no onsets and open syllables. A smaller set of function items allows CC onsets but still avoids heavy codas. In tone, function items most often bear L or M melodies; content words use the full tonal inventory, with H and productive HL/LH contours common, especially on the first syllable. Downstep can surface across morpheme boundaries in content items. Longer polysyllables (four syllables and beyond) are few and typically derived or compositional; they maintain robust backness harmony by sticking to either the front set (i, e) or the back set (u, o), with the low vowel a acting neutrally inside the word. Onsetless words are frequent among function items but only occasional among content items. Palatalized coronals and labialized velars are well represented in short, high-frequency items and at word edges respectively; both appear freely in longer forms so long as harmony and cluster constraints are met.
+
+Illustrative lexical items (IPA; underlying phonemic representations; tone marked):
+- ā — function, very common
+- í — function, common
+- kè — function, common
+- tō — function, common
+- nʲē — function, common
+- wá — function, uncommon
+- hù — function, common
+- pɬō — function, rare
+
+- stráʃ — content, common
+- kʷôrks — content, uncommon
+- plēn — content, common
+- tʲíɬ — content, uncommon
+- ɬōr — content, uncommon
+- ēlkɬ — content, rare
+
+- sklú.po — content, common
+- kʷó.ruk — content, common
+- prē.ti — content, common
+- tɬé.ke — content, common
+- pǎ.lok — content, uncommon
+- krî.nēlʃ — content, uncommon
+- pwā.tu — content, common
+- kʷú.lo — content, common
+- kʷō.lun — content, common
+- tjá.wen — content, uncommon
+- hē.nʲi — content, rare
+- pē.ji — content, common
+- tʲê.ɬe — content, uncommon
+- mú.rō — content, common
+- nʲé.lʲi — content, uncommon
+- kʷá.lu — content, uncommon
+- pɬē.tʲi — content, rare
+
+- stɬó.pu.kō — content, common
+- pjá.li.kē — content, common
+- kʷû.ro.ko — content, uncommon
+- tē.nʲi.lʲe — content, common
+- krâ.wu.tō — content, uncommon
+
+- strá.wo.kó.ru — content, rare
+- pɬē.ti.nēlʃ — content, rare
+- kʷǒ.ru.kō.lo — content, rare
+
+- stɬō.kʷu.lu.pō.ko — content, very rare
+- kó !kó.rō — content, rare
+- ō.mo — content, uncommon
