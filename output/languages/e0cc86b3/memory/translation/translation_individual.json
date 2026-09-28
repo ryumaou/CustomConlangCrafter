@@ -1,0 +1,238 @@
+{
+  "sentences": [
+    {
+      "conlang_sentence": "o-i=yu=!nu.rim o-!ga.laq !bo.rum",
+      "gloss": "ANIM-S.3=IPFV=sleep ANIM-big dog",
+      "new_words": [
+        {
+          "!nu.rim": "sleep; be asleep"
+        },
+        {
+          "!ga.laq": "big; large"
+        },
+        {
+          "!bo.rum": "dog"
+        }
+      ],
+      "new_grammar_rules": [],
+      "english_sentence": "The big dog is sleeping.",
+      "sentence_index": 1
+    },
+    {
+      "conlang_sentence": "!^o !qe i=yu=!ru !pe.rim !n^a !mi",
+      "gloss": "Q WHERE S.3=IPFV=be.located book POSS 1SG",
+      "new_words": [
+        {
+          "!qe": "where; interrogative locative adverb"
+        },
+        {
+          "!ru": "be located; be situated"
+        },
+        {
+          "!pe.rim": "book; bound written volume"
+        },
+        {
+          "!mi": "I; me; first-person singular pronoun"
+        }
+      ],
+      "new_grammar_rules": [
+        {
+          "rule": "Locative questions use the clause-initial question particle !^o and the interrogative locative adverb !qe immediately before an intransitive locative predicate. The located entity follows the predicate as its unmarked S argument.",
+          "justification": "This extends the existing rule that content interrogatives occupy the position appropriate to their grammatical role. The locative predicate is intransitive and therefore takes the existing S index i=."
+        }
+      ],
+      "english_sentence": "Where is my book?",
+      "sentence_index": 2
+    },
+    {
+      "conlang_sentence": "sa=qi=ha=!be.nem !si.ma-m !na.lu-ka",
+      "gloss": "A.3=O.3=PROSP=GIVE.WATER woman-ACC man-AGT",
+      "new_words": [
+        {
+          "!be.nem": "give water to; water-transfer verb whose object is the recipient"
+        },
+        {
+          "!na.lu": "man; male animate person; animate-class noun"
+        },
+        {
+          "!si.ma": "woman; female animate person; animate-class noun"
+        }
+      ],
+      "new_grammar_rules": [],
+      "english_sentence": "She will give him water.",
+      "sentence_index": 3
+    },
+    {
+      "conlang_sentence": "i=na=!pa.rum o-sa !nyo.rim h-ta !te.lum-hu !mu.nem",
+      "gloss": "S.3=PFV=walk ANIM-DEM.PROX child PLACE-DEM.DIST house-ALL yesterday",
+      "new_words": [
+        {
+          "!pa.rum": "walk; go on foot"
+        },
+        {
+          "!nyo.rim": "child"
+        },
+        {
+          "!te.lum": "house; dwelling"
+        },
+        {
+          "!mu.nem": "yesterday"
+        }
+      ],
+      "new_grammar_rules": [
+        {
+          "rule": "The suffix -hu marks an allative goal or destination and follows the noun stem, after any number suffix.",
+          "justification": "The language has overt core case marking and permits additional relational morphology. A short agglutinative locative suffix is consistent with nominal morphology and allows an intransitive motion verb to express a destination."
+        },
+        {
+          "rule": "The demonstrative stem ta marks distal reference ('that'); it takes the normal noun-class prefix, yielding forms such as h-ta 'that place/house' and o-ta 'that animate being'. The existing class-prefix plus sa series remains proximal ('this').",
+          "justification": "Class-marked demonstratives are already productive. Adding a contrasting distal stem preserves the same class-agreement pattern while distinguishing English 'this' from 'that'."
+        }
+      ],
+      "english_sentence": "This child walked to that house yesterday.",
+      "sentence_index": 4
+    },
+    {
+      "conlang_sentence": "!^o i=yu=!shu.qam",
+      "gloss": "Q S.3=IPFV=be.hungry",
+      "new_words": [
+        {
+          "!shu.qam": "be hungry; experience hunger. Coined as a phonologically well-formed verbal root because no attested hunger predicate is available."
+        }
+      ],
+      "new_grammar_rules": [],
+      "english_sentence": "Are you hungry?",
+      "sentence_index": 5
+    },
+    {
+      "conlang_sentence": "ha=!bu.ram o-!za.qe !ci.lum-m",
+      "gloss": "PROSP=give ANIM-red bird-ACC",
+      "new_words": [
+        {
+          "!bu.ram": "give; hand over; transfer"
+        },
+        {
+          "!za.qe": "red"
+        },
+        {
+          "!ci.lum": "bird"
+        }
+      ],
+      "new_grammar_rules": [],
+      "english_sentence": "Give me the red bird!",
+      "sentence_index": 6
+    },
+    {
+      "conlang_sentence": "i=yu=!su.ren !bae.ran !a !dao.muq",
+      "gloss": "S.3=IPFV=talk woman and man",
+      "new_words": [
+        {
+          "!su.ren": "talk; converse; speak with another"
+        },
+        {
+          "!bae.ran": "woman"
+        },
+        {
+          "!dao.muq": "man"
+        }
+      ],
+      "new_grammar_rules": [],
+      "english_sentence": "The woman and the man are talking.",
+      "sentence_index": 7
+    },
+    {
+      "conlang_sentence": "!^i ni=qi=yu=!zi.laq !mi.rak-rta-m",
+      "gloss": "NEG 1SG.A=3.O=IPFV=see cat-TRI-ACC",
+      "new_words": [
+        {
+          "!zi.laq": "see; visually perceive"
+        },
+        {
+          "!mi.rak": "cat"
+        }
+      ],
+      "new_grammar_rules": [
+        {
+          "rule": "The first-person singular transitive-agent index is ni=, occupying the normal A-index position before the patient index and TAM clitic.",
+          "justification": "The specification provides only third-person tripartite verbal indexes. A first-person A index is required for “I”; ni= is a short unstressed clitic consistent with the language's verbal morphology."
+        }
+      ],
+      "english_sentence": "I do not see three cats.",
+      "sentence_index": 8
+    },
+    {
+      "conlang_sentence": "i=yu=!ghu.nem k-!zho.mak !ta.rhum",
+      "gloss": "S.3=IPFV=exist STONE-black mountain",
+      "new_words": [
+        {
+          "!ghu.nem": "exist; be present"
+        },
+        {
+          "!zho.mak": "black; dark"
+        },
+        {
+          "!ta.rhum": "mountain"
+        }
+      ],
+      "new_grammar_rules": [
+        {
+          "rule": "Existential clauses use the intransitive verb !ghu.nem ‘exist, be present’ with an S index; the existent noun phrase follows the verb.",
+          "justification": "This follows the language’s verb-initial syntax and its use of S indexes for intransitive predicates. The imperfective yu= gives a present ongoing-state reading, ‘there is/exists.’"
+        },
+        {
+          "rule": "Adjectival modifiers precede the noun and may take the formal class prefix of the modified noun.",
+          "justification": "This extends the stated preverbal-noun modifier pattern and formal class agreement. The mountain is stone-class, so k- marks the modifier as agreeing with a stone-class noun."
+        }
+      ],
+      "english_sentence": "There is a black mountain.",
+      "sentence_index": 9
+    },
+    {
+      "conlang_sentence": "i=na=!pe.ru !ri.ma-mi !mu.nyi.ma-nyu",
+      "gloss": "S.3=PFV=play garden-LOC child-DU",
+      "new_words": [
+        {
+          "!pe.ru": "play; engage in play"
+        },
+        {
+          "!ri.ma": "garden; cultivated outdoor area"
+        },
+        {
+          "!mu.nyi.ma": "child"
+        },
+        {
+          "-mi": "locative suffix: in, at, on"
+        }
+      ],
+      "new_grammar_rules": [
+        {
+          "rule": "The suffix -mi marks a noun phrase as a locative adjunct meaning “in, at, or on.” A locative-marked noun may follow an intransitive verb and precede the subject noun phrase.",
+          "justification": "The locative suffix introduces an adjunct without affecting verbal indexing. The intransitive verb retains its third-person subject index, while the unmarked dual noun phrase !mu.nyi.ma-nyu remains the subject."
+        }
+      ],
+      "english_sentence": "Two children played in the garden.",
+      "sentence_index": 10
+    },
+    {
+      "conlang_sentence": "i=ha=!pao.nem !shu.maq !sa sa=qi=yu=!vo.rhaq !ke.lim-m",
+      "gloss": "S.3=PROSP=starve tiger REL A.3=O.3=IPFV=wear bell-ACC",
+      "new_words": [
+        {
+          "!pao.nem": "starve; die from hunger"
+        },
+        {
+          "!shu.maq": "tiger"
+        },
+        {
+          "!vo.rhaq": "wear; carry on the body"
+        },
+        {
+          "!ke.lim": "bell"
+        }
+      ],
+      "new_grammar_rules": [],
+      "english_sentence": "A Tiger wearing a bell will starve.",
+      "sentence_index": 11
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "sentences": [
+    {
+      "conlang_sentence": "i=ha=!pao.nem !shu.maq !sa sa=qi=yu=!vo.rhaq !ke.lim-m",
+      "gloss": "S.3=PROSP=starve tiger REL A.3=O.3=IPFV=wear bell-ACC",
+      "new_words": [
+        {
+          "!pao.nem": "starve; die from hunger"
+        },
+        {
+          "!shu.maq": "tiger"
+        },
+        {
+          "!vo.rhaq": "wear; carry on the body"
+        },
+        {
+          "!ke.lim": "bell"
+        }
+      ],
+      "new_grammar_rules": []
+    }
+  ]
+}

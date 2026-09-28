@@ -1,0 +1,22 @@
+{
+  "input_sentence": "I do not see three cats.",
+  "lexicon_available": true,
+  "sentence_index": 8,
+  "qa_results": {
+    "final_qa": {
+      "overall_score": 10,
+      "issues": []
+    },
+    "all_iterations": [
+      {
+        "iteration": 1,
+        "qa_data": {
+          "overall_score": 10,
+          "issues": []
+        },
+        "content_length": 739,
+        "amended": false
+      }
+    ]
+  }
+}

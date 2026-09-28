@@ -1,0 +1,28 @@
+{
+  "sentences": [
+    {
+      "conlang_sentence": "!^o !qe i=yu=!ru !pe.rim !n^a !mi",
+      "gloss": "Q WHERE S.3=IPFV=be.located book POSS 1SG",
+      "new_words": [
+        {
+          "!qe": "where; interrogative locative adverb"
+        },
+        {
+          "!ru": "be located; be situated"
+        },
+        {
+          "!pe.rim": "book; bound written volume"
+        },
+        {
+          "!mi": "I; me; first-person singular pronoun"
+        }
+      ],
+      "new_grammar_rules": [
+        {
+          "rule": "Locative questions use the clause-initial question particle !^o and the interrogative locative adverb !qe immediately before an intransitive locative predicate. The located entity follows the predicate as its unmarked S argument.",
+          "justification": "This extends the existing rule that content interrogatives occupy the position appropriate to their grammatical role. The locative predicate is intransitive and therefore takes the existing S index i=."
+        }
+      ]
+    }
+  ]
+}

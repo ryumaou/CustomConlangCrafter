@@ -1,0 +1,20 @@
+{
+  "sentences": [
+    {
+      "conlang_sentence": "i=yu=!su.ren !bae.ran !a !dao.muq",
+      "gloss": "S.3=IPFV=talk woman and man",
+      "new_words": [
+        {
+          "!su.ren": "talk; converse; speak with another"
+        },
+        {
+          "!bae.ran": "woman"
+        },
+        {
+          "!dao.muq": "man"
+        }
+      ],
+      "new_grammar_rules": []
+    }
+  ]
+}

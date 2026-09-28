@@ -1,0 +1,28 @@
+{
+  "sentences": [
+    {
+      "conlang_sentence": "i=na=!pe.ru !ri.ma-mi !mu.nyi.ma-nyu",
+      "gloss": "S.3=PFV=play garden-LOC child-DU",
+      "new_words": [
+        {
+          "!pe.ru": "play; engage in play"
+        },
+        {
+          "!ri.ma": "garden; cultivated outdoor area"
+        },
+        {
+          "!mu.nyi.ma": "child"
+        },
+        {
+          "-mi": "locative suffix: in, at, on"
+        }
+      ],
+      "new_grammar_rules": [
+        {
+          "rule": "The suffix -mi marks a noun phrase as a locative adjunct meaning “in, at, or on.” A locative-marked noun may follow an intransitive verb and precede the subject noun phrase.",
+          "justification": "The locative suffix introduces an adjunct without affecting verbal indexing. The intransitive verb retains its third-person subject index, while the unmarked dual noun phrase !mu.nyi.ma-nyu remains the subject."
+        }
+      ]
+    }
+  ]
+}

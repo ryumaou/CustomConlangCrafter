@@ -1,0 +1,32 @@
+{
+  "sentences": [
+    {
+      "conlang_sentence": "i=na=!pa.rum o-sa !nyo.rim h-ta !te.lum-hu !mu.nem",
+      "gloss": "S.3=PFV=walk ANIM-DEM.PROX child PLACE-DEM.DIST house-ALL yesterday",
+      "new_words": [
+        {
+          "!pa.rum": "walk; go on foot"
+        },
+        {
+          "!nyo.rim": "child"
+        },
+        {
+          "!te.lum": "house; dwelling"
+        },
+        {
+          "!mu.nem": "yesterday"
+        }
+      ],
+      "new_grammar_rules": [
+        {
+          "rule": "The suffix -hu marks an allative goal or destination and follows the noun stem, after any number suffix.",
+          "justification": "The language has overt core case marking and permits additional relational morphology. A short agglutinative locative suffix is consistent with nominal morphology and allows an intransitive motion verb to express a destination."
+        },
+        {
+          "rule": "The demonstrative stem ta marks distal reference ('that'); it takes the normal noun-class prefix, yielding forms such as h-ta 'that place/house' and o-ta 'that animate being'. The existing class-prefix plus sa series remains proximal ('this').",
+          "justification": "Class-marked demonstratives are already productive. Adding a contrasting distal stem preserves the same class-agreement pattern while distinguishing English 'this' from 'that'."
+        }
+      ]
+    }
+  ]
+}

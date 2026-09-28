@@ -1,0 +1,124 @@
+{
+  "final_qa": {
+    "overall_score": 9,
+    "issues": [
+      {
+        "issue": "The exact scope of High-tone marking on long vowels is somewhat unclear. For example, `rh^ii` could be interpreted as High tone on the entire long vowel /iː/ or as High on its first mora followed by an unmarked Low second mora. Conversely, forms such as `qha^a` clearly appear intended to mark only the second mora of /aː/.",
+        "type": "ambiguity",
+        "correction": "Specify a fully explicit convention for long vowels: for example, state whether `^ii` represents HH on /iː/, while `i^i` represents LH, or require a tone marker before each High mora, such as `^i^i` for HH.",
+        "priority": 3
+      },
+      {
+        "issue": "The treatment of tone-marked long-vowel spellings is inferable but not explicitly stated. The vowel inventory defines long vowels as uninterrupted doubled spellings such as `aa` and `uu`, while examples use interrupted forms such as `a^a` and `u^u`.",
+        "type": "ambiguity",
+        "correction": "State explicitly that suprasegmental symbols may intervene inside a doubled long-vowel spelling and do not interrupt its interpretation as a single long vowel; for example, `a^a` = /aː/ with High tone on the second mora.",
+        "priority": 3
+      }
+    ]
+  },
+  "all_iterations": [
+    {
+      "iteration": 1,
+      "qa_data": {
+        "overall_score": 8,
+        "issues": [
+          {
+            "issue": "The stated High-tone transcription convention says that ^ occurs before the vowel, but several examples place it before the onset consonant of the syllable instead: !^na, !^rhii, !^bo.cha, !^fe.rta, !gu.^la, and !Hao.^qa.nim. This conflicts with the explicit orthographic description.",
+            "type": "inconsistency",
+            "correction": "Either revise the convention to say that ^ is written before the syllable containing the High-toned vowel or mora, or move the caret in the affected examples so that it immediately precedes the relevant vowel, e.g. !n^a, !rh^ii, !b^o.cha, !f^e.rta, !gu.l^a, and !Hao.q^a.nim.",
+            "priority": 2
+          },
+          {
+            "issue": "The long compound !qhh u^u.ma.rha.qem contains an internal space between qhh and u^u. Since spaces ordinarily separate words, this makes the listed item appear to contain two words rather than one compound.",
+            "type": "error",
+            "correction": "Remove the space: !qhhu^u.ma.rha.qem, assuming qhh represents /qʰ/ and u^u represents a long /uː/ whose second mora is High-toned.",
+            "priority": 2
+          },
+          {
+            "issue": "Several geminated forms are syllabified in a way that appears to create onset clusters not otherwise licensed by the phonotactics: !a.shsha, !a.nnyu, !a.ngnga, !Hao.qhha.mmaa.rta.nuq, and !qha^a.nnyu.Hae.rta.qam. If shsh, nn, ngng, and mm are true geminates, they would more normally be divided across syllable boundaries rather than treated as onset clusters.",
+            "type": "ambiguity",
+            "correction": "Clarify that geminates are exempt from the ordinary onset-cluster restrictions and may be tautosyllabic or word-initial, or revise the displayed syllabification to show ambisyllabic/intervocalic geminates, such as !ash.sha, !an.nyu, !ang.nga, !Hao.qhham.maa.rta.nuq, and !qha^an.nyu.Hae.rta.qam.",
+            "priority": 3
+          },
+          {
+            "issue": "The treatment of word-initial geminates is not specified, although !mmaa.qe begins with a written geminate /mː/. The general syllable template and onset-cluster description do not explicitly allow initial geminates.",
+            "type": "ambiguity",
+            "correction": "State explicitly that marginal ceremonial geminates may occur word-initially, or avoid word-initial geminate examples if gemination is intended to be restricted to intervocalic or morpheme-boundary positions.",
+            "priority": 3
+          }
+        ]
+      },
+      "content_length": 7857,
+      "amended": true
+    },
+    {
+      "iteration": 2,
+      "qa_data": {
+        "overall_score": 8,
+        "issues": [
+          {
+            "issue": "The item `!qhhu^u.m` is marked with a syllable division before a final standalone `m`, yielding a syllable without a vowel. This contradicts the stated usual syllable shape `(C)(C)V(V)(C)` and the absence of syllabic consonants in the phonology.",
+            "type": "inconsistency",
+            "correction": "Remove the final syllable boundary so that the nasal is the coda of the preceding syllable: `!qhhu^um`.",
+            "priority": 2
+          },
+          {
+            "issue": "The item `!qha.rha.^ae.m` likewise places a syllable boundary before a final standalone `m`, creating a vowelless syllable contrary to the stated syllable template.",
+            "type": "inconsistency",
+            "correction": "Make `m` the coda of the preceding syllable: `!qha.rha.^aem`.",
+            "priority": 2
+          },
+          {
+            "issue": "The ASCII orthography has several potentially ambiguous overlapping spellings, especially `qh` (/χ/) versus the sequence `q` + `h`, `qhh` (/qʰ/) versus possible longer sequences, and `rt` (/ʈ/) versus `r` + `t`. The examples are generally interpretable by longest-match parsing, but this parsing convention is not explicitly stated.",
+            "type": "ambiguity",
+            "correction": "State that ASCII transcription is parsed by longest matching listed segment spelling, or otherwise specify explicit segmentation conventions for overlapping spellings.",
+            "priority": 3
+          }
+        ]
+      },
+      "content_length": 8320,
+      "amended": true
+    },
+    {
+      "iteration": 3,
+      "qa_data": {
+        "overall_score": 8,
+        "issues": [
+          {
+            "issue": "The form `!rthu.Aao.m` contains a final syllable written as `m`, but periods are explicitly defined as syllable divisions and the stated syllable template requires a vowel nucleus. No syllabic nasal is listed.",
+            "type": "inconsistency",
+            "correction": "Write the final /m/ as the coda of the preceding syllable, e.g. `!rthu.Aaom`, or explicitly add syllabic consonants and revise the syllable template if `m` is intended to be syllabic.",
+            "priority": 2
+          }
+        ]
+      },
+      "content_length": 8558,
+      "amended": true
+    },
+    {
+      "iteration": 4,
+      "qa_data": {
+        "overall_score": 9,
+        "issues": [
+          {
+            "issue": "The exact scope of High-tone marking on long vowels is somewhat unclear. For example, `rh^ii` could be interpreted as High tone on the entire long vowel /iː/ or as High on its first mora followed by an unmarked Low second mora. Conversely, forms such as `qha^a` clearly appear intended to mark only the second mora of /aː/.",
+            "type": "ambiguity",
+            "correction": "Specify a fully explicit convention for long vowels: for example, state whether `^ii` represents HH on /iː/, while `i^i` represents LH, or require a tone marker before each High mora, such as `^i^i` for HH.",
+            "priority": 3
+          },
+          {
+            "issue": "The treatment of tone-marked long-vowel spellings is inferable but not explicitly stated. The vowel inventory defines long vowels as uninterrupted doubled spellings such as `aa` and `uu`, while examples use interrupted forms such as `a^a` and `u^u`.",
+            "type": "ambiguity",
+            "correction": "State explicitly that suprasegmental symbols may intervene inside a doubled long-vowel spelling and do not interrupt its interpretation as a single long vowel; for example, `a^a` = /aː/ with High tone on the second mora.",
+            "priority": 3
+          }
+        ]
+      },
+      "content_length": 8557,
+      "amended": false
+    }
+  ],
+  "content_before_qa": "# Phonology\n\n## Consonants\n\n| Manner | Bilabial | Alveolar | Retroflex | Palatal | Velar | Uvular | Pharyngeal | Glottal |\n|---|---|---|---|---|---|---|---|---|\n| Stops | p b pʰ pʼ<br>(p b ph p') | t d tʰ tʼ<br>(t d th t') | ʈ ɖ ʈʰ ʈʼ<br>(rt rd rth rt') | c ɟ cʰ cʼ<br>(c j ch c') | k g kʰ kʼ<br>(k g kh k') | q ɢ qʰ qʼ<br>(q G qhh q') | — | ʔ<br>(') |\n| Fricatives | ɸ β<br>(f v) | s z<br>(s z) | ʂ ʐ<br>(sh zh) | ç ʝ<br>(cy jy) | x ɣ<br>(x gh) | χ ʁ<br>(qh R) | ħ ʕ<br>(H A) | h<br>(h) |\n| Nasals | m<br>(m) | n<br>(n) | ɳ<br>(rn) | ɲ<br>(ny) | ŋ<br>(ng) | ɴ<br>(nq) | — | — |\n| Approximants | w<br>(w) | ɹ<br>(r) | ɻ<br>(rh) | j<br>(y) | — | — | — | — |\n\nThe stop system is unusually elaborate: most oral stop places distinguish plain voiceless, voiced, aspirated, and ejective series. The uvular and pharyngeal consonants are especially prominent in formal, religious, and magical vocabulary. Gemination is marginally contrastive, chiefly among nasals and fricatives in inherited ceremonial roots; it is written by doubling the relevant ASCII spelling.\n\n## Vowels\n\n| Height | Front | Central | Back |\n|---|---|---|---|\n| Close | i iː<br>(i ii) | — | u uː<br>(u uu) |\n| Close-mid | e eː<br>(e ee) | — | o oː<br>(o oo) |\n| Open-mid | ɛ ɛː<br>(ae aae) | — | ɔ ɔː<br>(ao aao) |\n| Open | — | a aː<br>(a aa) | — |\n\nAll seven vowel qualities contrast in length, producing fourteen basic vowel phonemes. Length is central to word formation: many derivational patterns expand a vowel, shorten it, or replace it with another vowel of the same length class. Long vowels are fully contrastive in both stressed and unstressed syllables.\n\n## Phonotactics\n\nThe usual syllable shape is (C)(C)V(V)(C). Onset clusters are limited primarily to an obstruent followed by r, rh, y, or w; retroflex and uvular consonants are normally excluded from clusters except in old ritual compounds. Codas are restricted to a single nasal, fricative, stop, or glottal stop, though compounds may preserve apparent heavier clusters across morpheme boundaries. Ordinary stems are commonly two or three syllables, while scholarly, magical, and ceremonial formations are frequently long compounds of five or more syllables. Assimilation is limited: nasals commonly take the place of a following consonant across transparent morpheme boundaries, but other consonants remain comparatively stable.\n\n## Suprasegmentals\n\nThe language has two lexical tones, High and Low, and strongly contrastive stress. Tone and stress are independent: otherwise identical words may differ by stress position, tone, vowel length, or combinations of all three. A short vowel bears one tone, while a long vowel contains two morae and may carry a level tone or a rising or falling sequence derived from High and Low tones; this gives ceremonial recitation a chant-like contour without requiring additional underlying tones. In scholarly ASCII transcription, stress is marked with `!` before the stressed syllable, High tone with `^` before the vowel, and Low tone is left unmarked.\n\n## Word Shapes and Lexical Statistics\n\nMost function items are short, usually monosyllabic and frequently vowel-initial or built from a simple CV shape. Many are high-frequency particles, relators, and clitic-like forms; a few have long vowels or marked High tone. Disyllabic function items are less common, and longer function words are rare outside formal recitation.\n\nMost ordinary content items are disyllabic, with many trisyllabic derivatives. Their usual shapes are CV.CVC, CV.CV, CVC.CV, or CVV.CV. Stressed syllables occur initially, medially, or finally, and High tone is distributed independently of stress. Many common lexical stems use plain, voiced, aspirated, or ejective stops, while retroflex, uvular, pharyngeal, and glottal consonants are especially frequent in uncommon, formal, magical, religious, and scholarly vocabulary.\n\nLong vowels occur freely in both short and long words. Some ceremonial items preserve rising or falling tonal contours on long vowels, represented here by placing `^` before the High-toned mora. Most content roots are compact, but many learned formations are expanded through derivation and compounding. Such formations commonly contain several syllables, repeated sacred stems, uvular or pharyngeal segments, and occasional inherited gemination. Very long compounds are uncommon in everyday speech but common in liturgical, magical, archival, and scholarly registers.\n\nUnmarked vowels bear Low tone. Periods indicate syllable divisions.\n\n### Function Items\n\n- `!^i` — function item, very common  \n- `!a` — function item, very common  \n- `!^u` — function item, common  \n- `!e` — function item, common  \n- `!^o` — function item, common  \n- `!ae` — function item, common  \n- `!ao` — function item, uncommon  \n- `!sa` — function item, very common  \n- `!^na` — function item, common  \n- `!qi` — function item, common  \n- `!ha` — function item, common  \n- `!yu` — function item, common  \n- `!ra` — function item, uncommon  \n- `!ma` — function item, common  \n- `!c'a` — function item, rare  \n- `!^rhii` — function item, rare  \n\n### Ordinary Content Items\n\n- `!qha.rum` — content item, common  \n- `qa.!ren` — content item, common  \n- `!p'a.tem` — content item, uncommon  \n- `!cyu.nyom` — content item, uncommon  \n- `!rta.^ae.nak` — content item, uncommon  \n- `khu.!ri` — content item, common  \n- `!sha.zuq` — content item, uncommon  \n- `!vo.nga` — content item, common  \n- `mi.!soq` — content item, common  \n- `!te.rhu` — content item, uncommon  \n- `nyo.!maq` — content item, common  \n- `!gu.^la` — content item, common  \n- `xao.!nim` — content item, uncommon  \n- `!^bo.cha` — content item, common  \n- `we.!qam` — content item, uncommon  \n- `jo.!rum` — content item, common  \n- `!^fe.rta` — content item, uncommon  \n- `nqae.!hu` — content item, rare  \n- `!ka.zyum` — content item, common  \n- `so.!rhuq` — content item, uncommon  \n\n### Religious, Magical, and Scholarly Content Items\n\n- `!qha^a.rum` — content item, ceremonial, common  \n- `qaa.!ren` — content item, ceremonial, common  \n- `!Hao.^qa.nim` — content item, ceremonial, uncommon  \n- `!A^e.rta.muq` — content item, ceremonial, uncommon  \n- `!qhhu^u.m` — content item, ceremonial, rare  \n- `!Gae.rha` — content item, ceremonial, uncommon  \n- `!rt'ao.nyim` — content item, ceremonial, rare  \n- `!c'ae.rhum` — content item, ceremonial, uncommon  \n- `!p'ao.Ham` — content item, ceremonial, uncommon  \n- `t'ae.!qhoq` — content item, ceremonial, rare  \n- `!k'aa.xum` — content item, scholarly, uncommon  \n- `q'ae.!ran` — content item, scholarly, rare  \n- `!a.shsha` — content item, ceremonial, rare  \n- `!mmaa.qe` — content item, ceremonial, rare  \n- `!a.nnyu` — content item, ceremonial, rare  \n- `!a.ngnga` — content item, ceremonial, very rare  \n- `!Hae.qha.rom` — content item, religious, uncommon  \n- `Aao.!zyum` — content item, religious, rare  \n- `!qha.rha.^ae.m` — content item, magical, uncommon  \n- `xii.!qha^a` — content item, scholarly, uncommon  \n- `!qho.ghae.nuq` — content item, magical, rare  \n- `!rthu.Aao.m` — content item, religious, rare  \n\n### Long Derived and Compound Content Items\n\n- `!qha^a.ru.ma.qe.nim` — content item, ceremonial, uncommon  \n- `Hao.!qha.rta.ae.nyum` — content item, religious, uncommon  \n- `!qhh u^u.ma.rha.qem` — content item, magical, rare  \n- `!Aae.qha.nyu.rta.xum` — content item, scholarly, rare  \n- `qha.!ren.Hao.ma.qoq` — content item, ceremonial, uncommon  \n- `!rt'ao.qha.rum.nyim` — content item, magical, rare  \n- `!c'ae.rhu.qha^a.tem` — content item, ceremonial, rare  \n- `Gae.!qha.nim.rhu.qam` — content item, scholarly, uncommon  \n- `!Hao.qhha.mmaa.rta.nuq` — content item, ceremonial, very rare  \n- `qaa.!ren.qha.Aao.nyim` — content item, religious, uncommon  \n- `!xao.rta.qha.rhu.muq` — content item, scholarly, rare  \n- `!qha^a.nnyu.Hae.rta.qam` — content item, magical, very rare",
+  "content_after_qa": "# Phonology\n\n## Consonants\n\n| Manner | Bilabial | Alveolar | Retroflex | Palatal | Velar | Uvular | Pharyngeal | Glottal |\n|---|---|---|---|---|---|---|---|---|\n| Stops | p b pʰ pʼ<br>(p b ph p') | t d tʰ tʼ<br>(t d th t') | ʈ ɖ ʈʰ ʈʼ<br>(rt rd rth rt') | c ɟ cʰ cʼ<br>(c j ch c') | k g kʰ kʼ<br>(k g kh k') | q ɢ qʰ qʼ<br>(q G qhh q') | — | ʔ<br>(') |\n| Fricatives | ɸ β<br>(f v) | s z<br>(s z) | ʂ ʐ<br>(sh zh) | ç ʝ<br>(cy jy) | x ɣ<br>(x gh) | χ ʁ<br>(qh R) | ħ ʕ<br>(H A) | h<br>(h) |\n| Nasals | m<br>(m) | n<br>(n) | ɳ<br>(rn) | ɲ<br>(ny) | ŋ<br>(ng) | ɴ<br>(nq) | — | — |\n| Approximants | w<br>(w) | ɹ<br>(r) | ɻ<br>(rh) | j<br>(y) | — | — | — |\n\nThe stop system is unusually elaborate: most oral stop places distinguish plain voiceless, voiced, aspirated, and ejective series. The uvular and pharyngeal consonants are especially prominent in formal, religious, and magical vocabulary. Gemination is marginally contrastive, chiefly among nasals and fricatives in inherited ceremonial roots; it is written by doubling the relevant ASCII spelling. Intervocalic geminates normally span a syllable boundary, with the first portion functioning as the coda of the preceding syllable and the second as the onset of the following syllable. Marginal ceremonial roots may also preserve word-initial geminates.\n\nASCII transcription is parsed by longest matching listed segment spelling. Thus, for example, `qh` is /χ/, `qhh` is /qʰ/, `rt` is /ʈ/, and `rh` is /ɻ/ unless syllable boundaries or other explicit morphological notation indicate otherwise.\n\n## Vowels\n\n| Height | Front | Central | Back |\n|---|---|---|---|\n| Close | i iː<br>(i ii) | — | u uː<br>(u uu) |\n| Close-mid | e eː<br>(e ee) | — | o oː<br>(o oo) |\n| Open-mid | ɛ ɛː<br>(ae aae) | — | ɔ ɔː<br>(ao aao) |\n| Open | — | a aː<br>(a aa) | — |\n\nAll seven vowel qualities contrast in length, producing fourteen basic vowel phonemes. Length is central to word formation: many derivational patterns expand a vowel, shorten it, or replace it with another vowel of the same length class. Long vowels are fully contrastive in both stressed and unstressed syllables.\n\n## Phonotactics\n\nThe usual syllable shape is (C)(C)V(V)(C). Onset clusters are limited primarily to an obstruent followed by r, rh, y, or w; retroflex and uvular consonants are normally excluded from clusters except in old ritual compounds. Geminates are exempt from ordinary onset-cluster restrictions when they occur across syllable boundaries, and a small number of ceremonial roots retain initial geminates. Codas are restricted to a single nasal, fricative, stop, or glottal stop, though compounds may preserve apparent heavier clusters across morpheme boundaries. Ordinary stems are commonly two or three syllables, while scholarly, magical, and ceremonial formations are frequently long compounds of five or more syllables. Assimilation is limited: nasals commonly take the place of a following consonant across transparent morpheme boundaries, but other consonants remain comparatively stable.\n\n## Suprasegmentals\n\nThe language has two lexical tones, High and Low, and strongly contrastive stress. Tone and stress are independent: otherwise identical words may differ by stress position, tone, vowel length, or combinations of all three. A short vowel bears one tone, while a long vowel contains two morae and may carry a level tone or a rising or falling sequence derived from High and Low tones; this gives ceremonial recitation a chant-like contour without requiring additional underlying tones. In scholarly ASCII transcription, stress is marked with `!` before the stressed syllable, High tone with `^` immediately before the High-toned vowel or mora, and Low tone is left unmarked.\n\n## Word Shapes and Lexical Statistics\n\nMost function items are short, usually monosyllabic and frequently vowel-initial or built from a simple CV shape. Many are high-frequency particles, relators, and clitic-like forms; a few have long vowels or marked High tone. Disyllabic function items are less common, and longer function words are rare outside formal recitation.\n\nMost ordinary content items are disyllabic, with many trisyllabic derivatives. Their usual shapes are CV.CVC, CV.CV, CVC.CV, or CVV.CV. Stressed syllables occur initially, medially, or finally, and High tone is distributed independently of stress. Many common lexical stems use plain, voiced, aspirated, or ejective stops, while retroflex, uvular, pharyngeal, and glottal consonants are especially frequent in uncommon, formal, magical, religious, and scholarly vocabulary.\n\nLong vowels occur freely in both short and long words. Some ceremonial items preserve rising or falling tonal contours on long vowels, represented here by placing `^` immediately before the High-toned mora. Most content roots are compact, but many learned formations are expanded through derivation and compounding. Such formations commonly contain several syllables, repeated sacred stems, uvular or pharyngeal segments, and occasional inherited gemination. Very long compounds are uncommon in everyday speech but common in liturgical, magical, archival, and scholarly registers.\n\nUnmarked vowels bear Low tone. Periods indicate syllable divisions.\n\n### Function Items\n\n- `!^i` — function item, very common  \n- `!a` — function item, very common  \n- `!^u` — function item, common  \n- `!e` — function item, common  \n- `!^o` — function item, common  \n- `!ae` — function item, common  \n- `!ao` — function item, uncommon  \n- `!sa` — function item, very common  \n- `!n^a` — function item, common  \n- `!qi` — function item, common  \n- `!ha` — function item, common  \n- `!yu` — function item, common  \n- `!ra` — function item, uncommon  \n- `!ma` — function item, common  \n- `!c'a` — function item, rare  \n- `!rh^ii` — function item, rare  \n\n### Ordinary Content Items\n\n- `!qha.rum` — content item, common  \n- `qa.!ren` — content item, common  \n- `!p'a.tem` — content item, uncommon  \n- `!cyu.nyom` — content item, uncommon  \n- `!rta.^ae.nak` — content item, uncommon  \n- `khu.!ri` — content item, common  \n- `!sha.zuq` — content item, uncommon  \n- `!vo.nga` — content item, common  \n- `mi.!soq` — content item, common  \n- `!te.rhu` — content item, uncommon  \n- `nyo.!maq` — content item, common  \n- `!gu.l^a` — content item, common  \n- `xao.!nim` — content item, uncommon  \n- `!b^o.cha` — content item, common  \n- `we.!qam` — content item, uncommon  \n- `jo.!rum` — content item, common  \n- `!f^e.rta` — content item, uncommon  \n- `nqae.!hu` — content item, rare  \n- `!ka.zyum` — content item, common  \n- `so.!rhuq` — content item, uncommon  \n\n### Religious, Magical, and Scholarly Content Items\n\n- `!qha^a.rum` — content item, ceremonial, common  \n- `qaa.!ren` — content item, ceremonial, common  \n- `!Hao.q^a.nim` — content item, ceremonial, uncommon  \n- `!A^e.rta.muq` — content item, ceremonial, uncommon  \n- `!qhhu^um` — content item, ceremonial, rare  \n- `!Gae.rha` — content item, ceremonial, uncommon  \n- `!rt'ao.nyim` — content item, ceremonial, rare  \n- `!c'ae.rhum` — content item, ceremonial, uncommon  \n- `!p'ao.Ham` — content item, ceremonial, uncommon  \n- `t'ae.!qhoq` — content item, ceremonial, rare  \n- `!k'aa.xum` — content item, scholarly, uncommon  \n- `q'ae.!ran` — content item, scholarly, rare  \n- `!ash.sha` — content item, ceremonial, rare  \n- `!mmaa.qe` — content item, ceremonial, rare  \n- `!an.nyu` — content item, ceremonial, rare  \n- `!ang.nga` — content item, ceremonial, very rare  \n- `!Hae.qha.rom` — content item, religious, uncommon  \n- `Aao.!zyum` — content item, religious, rare  \n- `!qha.rha.^aem` — content item, magical, uncommon  \n- `xii.!qha^a` — content item, scholarly, uncommon  \n- `!qho.ghae.nuq` — content item, magical, rare  \n- `!rthu.Aaom` — content item, religious, rare  \n\n### Long Derived and Compound Content Items\n\n- `!qha^a.ru.ma.qe.nim` — content item, ceremonial, uncommon  \n- `Hao.!qha.rta.ae.nyum` — content item, religious, uncommon  \n- `!qhhu^u.ma.rha.qem` — content item, magical, rare  \n- `!Aae.qha.nyu.rta.xum` — content item, scholarly, rare  \n- `qha.!ren.Hao.ma.qoq` — content item, ceremonial, uncommon  \n- `!rt'ao.qha.rum.nyim` — content item, magical, rare  \n- `!c'ae.rhu.qha^a.tem` — content item, ceremonial, rare  \n- `Gae.!qha.nim.rhu.qam` — content item, scholarly, uncommon  \n- `!Hao.qhham.maa.rta.nuq` — content item, ceremonial, very rare  \n- `qaa.!ren.qha.Aao.nyim` — content item, religious, uncommon  \n- `!xao.rta.qha.rhu.muq` — content item, scholarly, rare  \n- `!qha^an.nyu.Hae.rta.qam` — content item, magical, very rare",
+  "content_changed": true
+}

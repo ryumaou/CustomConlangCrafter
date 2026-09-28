@@ -1,0 +1,20 @@
+{
+  "sentences": [
+    {
+      "conlang_sentence": "ha=!bu.ram o-!za.qe !ci.lum-m",
+      "gloss": "PROSP=give ANIM-red bird-ACC",
+      "new_words": [
+        {
+          "!bu.ram": "give; hand over; transfer"
+        },
+        {
+          "!za.qe": "red"
+        },
+        {
+          "!ci.lum": "bird"
+        }
+      ],
+      "new_grammar_rules": []
+    }
+  ]
+}

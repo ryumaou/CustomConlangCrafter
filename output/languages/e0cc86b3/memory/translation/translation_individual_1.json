@@ -1,0 +1,20 @@
+{
+  "sentences": [
+    {
+      "conlang_sentence": "o-i=yu=!nu.rim o-!ga.laq !bo.rum",
+      "gloss": "ANIM-S.3=IPFV=sleep ANIM-big dog",
+      "new_words": [
+        {
+          "!nu.rim": "sleep; be asleep"
+        },
+        {
+          "!ga.laq": "big; large"
+        },
+        {
+          "!bo.rum": "dog"
+        }
+      ],
+      "new_grammar_rules": []
+    }
+  ]
+}

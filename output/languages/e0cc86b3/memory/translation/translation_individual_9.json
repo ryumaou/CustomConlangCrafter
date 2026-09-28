@@ -1,0 +1,29 @@
+{
+  "sentences": [
+    {
+      "conlang_sentence": "i=yu=!ghu.nem k-!zho.mak !ta.rhum",
+      "gloss": "S.3=IPFV=exist STONE-black mountain",
+      "new_words": [
+        {
+          "!ghu.nem": "exist; be present"
+        },
+        {
+          "!zho.mak": "black; dark"
+        },
+        {
+          "!ta.rhum": "mountain"
+        }
+      ],
+      "new_grammar_rules": [
+        {
+          "rule": "Existential clauses use the intransitive verb !ghu.nem ‘exist, be present’ with an S index; the existent noun phrase follows the verb.",
+          "justification": "This follows the language’s verb-initial syntax and its use of S indexes for intransitive predicates. The imperfective yu= gives a present ongoing-state reading, ‘there is/exists.’"
+        },
+        {
+          "rule": "Adjectival modifiers precede the noun and may take the formal class prefix of the modified noun.",
+          "justification": "This extends the stated preverbal-noun modifier pattern and formal class agreement. The mountain is stone-class, so k- marks the modifier as agreeing with a stone-class noun."
+        }
+      ]
+    }
+  ]
+}

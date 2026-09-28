@@ -1,0 +1,22 @@
+{
+  "input_sentence": "Where is my book?",
+  "lexicon_available": true,
+  "sentence_index": 2,
+  "qa_results": {
+    "final_qa": {
+      "overall_score": 10,
+      "issues": []
+    },
+    "all_iterations": [
+      {
+        "iteration": 1,
+        "qa_data": {
+          "overall_score": 10,
+          "issues": []
+        },
+        "content_length": 1016,
+        "amended": false
+      }
+    ]
+  }
+}

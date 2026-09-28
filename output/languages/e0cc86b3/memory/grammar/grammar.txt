@@ -1,0 +1,703 @@
+# Grammar
+
+## Morphology
+
+This is the inherited ritual and scholarly language of extra-planar creators: beings later human traditions understand not as ordinary gods, but as makers, arrangers, binders, and awakeners of reality. Its oldest texts concern the ordering of stars, breath, stone, names, and written forms before humankind. It has never been borrowed from human languages, although its solemn consonantal roots, repetitions, parallel clauses, and formulaic compounds may sound familiar to human listeners.
+
+The language is maximally polysynthetic but strongly agglutinative. A finite verb can encode the semantic core of a clause, its arguments, tense–aspect–mood, evidential source, direction or ritual force, and incorporated nouns, while individual affixes usually have one identifiable function. Everyday speech is concise and frequently omits noun phrases; scholarly, archival, magical, and liturgical registers preserve longer compounds, unusual consonants, old geminates, explicit class agreement, exact prosody, and fuller evidential marking.
+
+```text
+sa=qi=na=!qha.rum
+A.3=O.3=PFV=create
+“He, she, or it made it.”
+```
+
+```text
+sa=qi=ra=!qha.rum !vo.nga-m !qha^a.rum-ka=ao
+A.3=O.3=MYTH.PST=create star-ACC primordial.creator-AGT=ARCHIVAL
+“According to the sacred archive, the primordial creator made the star.”
+```
+
+The language is written in Latin-based ASCII transliteration. Capital letters are phonologically meaningful: `H`, `A`, `G`, and `R` are consonant spellings rather than ordinary capitalization. Stress, tone, and vowel length are written when known. A period marks a syllable boundary, a hyphen joins derivational or nominal morphology, an equals sign joins clitic-like verbal morphology, and brackets mark clauses.
+
+```text
+!qha.rum
+create
+“to shape, make, or bring into ordered form”
+
+!qha^a.rum
+primordial.creation
+“sacred creation; primordial maker; authoritative act of making”
+```
+
+```text
+sa=qi=na=qaa.!ren-!qha.rum
+A.3=O.3=PFV=sacred.record-create
+“to make a sacred record”
+```
+
+```text
+!qha^a.rum
+creation
+“primordial creation; creator”
+
+qaa.!ren
+sacred.record
+“sacred record; archive; canonical text”
+```
+
+Tone marks belong to vowels rather than consonants. A long vowel may bear high tone on either mora, producing rising or falling contours.
+
+Careful ceremonial recitation pronounces every written stress and tonal marking. In rapid ordinary speech, predictable stress and low tone may be less distinct, but lexical high tone and vowel length remain important.
+
+Verbal clitics are normally unstressed and are therefore written without lexical stress marks. Their tones are prosodically reduced or neutralized in ordinary clitic notation. Thus `sa=`, `qi=`, `na=`, `yu=`, `ra=`, and `ma=` are clitic morphemes distinct from any independently stressed lexical forms written with `!`.
+
+Most roots are semantically broad, naming processes, states, materials, or cosmic relations; derivation and compounding give them narrower meanings.
+
+```text
+!qha.rum
+create; shape; order
+“to make, shape, or set into proper form”
+
+khu.!ri
+awaken; become active
+“to awaken; to become active”
+
+qaa.!ren
+record; ordered inscription
+“sacred record; archive; canonical text”
+
+!qaa.ren
+know; recognize; comprehend
+“to know, recognize, or understand”
+```
+
+The initial-stress verb `!qaa.ren` “know” and the final-stress noun `qaa.!ren` “sacred record” are distinct lexical items.
+
+Derivation is productive. Lengthening the principal vowel commonly creates an abstract, sacred, intensified, primordial, or ritually authoritative form; the exact interpretation depends on class and context. Such forms may become lexicalized as specific religious concepts.
+
+```text
+!qha.rum
+create
+“to make in an ordinary or practical sense”
+
+!qha^a.rum
+primordial.creation
+“primordial creation; sacred maker; authoritative act of making”
+```
+
+Verbal roots may also be used directly as nouns. The bare nominal use of `!qha.rum` denotes an ordinary maker, creator, artisan, or shaping agent. The lengthened form `!qha^a.rum` denotes primordial creation, a sacred creator, or an authoritative creative power.
+
+```text
+u-sa !qha.rum
+CRAFTED-DEM maker
+“this maker; this artifact-maker”
+
+a-sa !qha^a.rum
+NUMINOUS-DEM primordial.creation
+“this sacred creation; this primordial creator”
+```
+
+```text
+sa=qi=na=!qha.rum !ka.zyum-m !qha^a.rum-ka
+A.3=O.3=PFV=create vessel-ACC primordial.creator-AGT
+“The primordial creator made a vessel.”
+```
+
+Compounds are normally right-headed: preceding members narrow the meaning of the final member. Ritual compounds may preserve archaic consonants, inherited gemination, and unusual vowel lengths.
+
+```text
+!qha.rha.^aem
+order-breath-binding
+“a spell that binds through ordained breath”
+```
+
+```text
+!qho.ghae.nuq
+void-fire-crossing
+“a rite of passage through primordial void”
+```
+
+`!qho.ghae.nuq` is therefore a kind of crossing specified by void and fire, rather than a mere juxtaposition of unrelated words.
+
+```text
+!qha^a.ru.ma.qe.nim
+creation-collective-inscription
+“the canonical record of the created order”
+```
+
+The language has twelve semantic, cosmological, and grammatical noun classes. Nouns usually do not overtly mark their class, but demonstratives, possessive markers, numerals, modifiers, and formal verbal indexes do.
+
+| Class | Domain | Demonstrative | Formal possessive | Formal modifier/numeral | Formal verbal class prefix | Typical examples |
+|---|---|---:|---:|---:|---:|---|
+| celestial | stars, heavens, cycles, luminous bodies | `e-sa` | `e-!n^a` | `e-` | `e-` | `!vo.nga` “star” |
+| numinous | sacred powers, divinities, primordial acts | `a-sa` | `a-!n^a` | `a-` | `a-` | `!qha^a.rum` |
+| animate | persons, animals, active spirits | `o-sa` | `o-!n^a` | `o-` | `o-` | `!A^e.rta.muq` “magician” |
+| crafted | tools, vessels, shaped objects | `u-sa` | `u-!n^a` | `u-` | `u-` | `!ka.zyum` “vessel” |
+| stone | rock, metal, bone, fixed material | `k-sa` | `k-!n^a` | `k-` | `k-` | ritual stones |
+| liquid | water, blood, oil, flowing substances | `l-sa` | `l-!n^a` | `l-` | `l-` | ritual liquids |
+| plant | wood, fiber, seeds, growth | `p-sa` | `p-!n^a` | `p-` | `p-` | ritual plants |
+| place | shrines, regions, thresholds, chambers | `h-sa` | `h-!n^a` | `h-` | `h-` | `!Hae.qha.rom` “shrine” |
+| inscribed/abstract | texts, names, laws, designs, concepts | `i-sa` | `i-!n^a` | `i-` | `i-` | `qaa.!ren` “record” |
+| breath/sound | speech, song, spoken spells, wind | `y-sa` | `y-!n^a` | `y-` | `y-` | spoken formulas |
+| collective | swarms, assemblies, unified agencies | `m-sa` | `m-!n^a` | `m-` | `m-` | creator collectives |
+| dangerous/chaotic | void, curses, unstable matter, devouring forces | `x-sa` | `x-!n^a` | `x-` | `x-` | void terms |
+
+The formal class prefix precedes the ordinary third-person verbal index when exact class agreement is required. The ordinary indexes `i=`, `sa=`, and `qi=` are class-neutral third-person forms and are most common outside highly formal recitation.
+
+```text
+e-i=yu=khu.!ri
+CELESTIAL-S.3=IPFV=awaken
+“The star is awakening.”
+```
+
+```text
+a-sa !Hae.qha.rom
+NUMINOUS-DEM shrine
+“this shrine as sacred presence”
+```
+
+```text
+u-sa !ka.zyum
+CRAFTED-DEM vessel
+“this vessel”
+```
+
+```text
+i-sa qaa.!ren
+INSCRIBED-DEM sacred.record
+“this sacred record”
+```
+
+Class reassignment is productive in scholarly and magical speech. It changes the metaphysical framing of a referent rather than its ordinary physical identity.
+
+```text
+i-sa !p'ao.Ham
+INSCRIBED-DEM spell.text
+“this spell as a written formula”
+```
+
+```text
+y-sa !p'ao.Ham
+BREATH-DEM spell.text
+“this spell as a spoken and living utterance”
+```
+
+```text
+y-sa !p'ao.Ham i=yu=khu.!ri
+BREATH-DEM spell S.3=IPFV=awaken
+“This spoken spell is awakening.”
+```
+
+```text
+a-sa !ka.zyum
+NUMINOUS-DEM vessel
+“this vessel as a sacred presence”
+```
+
+```text
+a-sa !p'ao.Ham
+NUMINOUS-DEM spell.text
+“this spell as sacred power”
+```
+
+Doubled class marking, chiefly in theological and magical exegesis, presents multiple valid ritual interpretations rather than a contradiction.
+
+```text
+i-sa a-sa qaa.!ren
+INSCRIBED-DEM NUMINOUS-DEM sacred.record
+“this sacred record, treated both as text and as numinous authority”
+```
+
+Number suffixes follow the noun stem and precede case marking.
+
+| Suffix | Meaning |
+|---|---|
+| zero | singular or contextually unspecified number |
+| `-nyu` | dual |
+| `-rta` | trial |
+| `-zum` | paucal |
+| `-nga` | plural |
+| `-maa` | collective: many acting as one |
+| `-qe` | distributive: each separately |
+
+```text
+!qha.rum-nyu-ka
+maker-DU-AGT
+“the two creators”
+```
+
+```text
+!qha.rum-rta-ka
+maker-TR-AGT
+“the three creators”
+```
+
+```text
+!qha.rum-nga-ka
+maker-PL-AGT
+“the creators”
+```
+
+```text
+!qha.rum-maa-ka
+maker-COLL-AGT
+“the creators as one creating body”
+```
+
+```text
+!qha.rum-qe-ka
+maker-DISTR-AGT
+“each creator separately”
+```
+
+Collective and distributive forms are especially important in ritual theology. Collective number may indicate metaphysical unity rather than literal plurality, while distributive number indicates separate or repeated responsibility.
+
+```text
+sa=qi=na=!qha.rum qaa.!ren-m !qha.rum-maa-ka
+A.3=O.3=PFV=create sacred.record-ACC maker-COLL-AGT
+“The creators together, as one creating body, made the sacred record.”
+```
+
+```text
+sa=qi=na=!qha.rum-qe qaa.!ren-m !qha.rum-qe-ka
+A.3=O.3=PFV=create-DISTR sacred.record-ACC maker-DISTR-AGT
+“Each creator separately made a sacred record.”
+```
+
+The distributive suffix may attach to a verb where the action itself is separately repeated.
+
+```text
+sa=qi=na=!qha.rum-qe !ka.zyum-m !A^e.rta.muq-nga-ka
+A.3=O.3=PFV=create-DISTR vessel-ACC magician-PL-AGT
+“The magicians each made a vessel separately.”
+```
+
+The language has tripartite alignment. It distinguishes the sole intransitive argument (`S`), the transitive agent (`A`), and the transitive patient (`O`). The common third-person indexes are `i=` for `S`, `sa=` for `A`, and `qi=` for `O`.
+
+```text
+i=yu=khu.!ri
+S.3=IPFV=awaken
+“He, she, or it is awakening.”
+```
+
+```text
+sa=qi=na=!qha.rum
+A.3=O.3=PFV=create
+“He, she, or it made it.”
+```
+
+```text
+i=na=khu.!ri
+S.3=PFV=awaken
+“It awakened.”
+```
+
+```text
+sa=qi=na=khu.!ri
+A.3=O.3=PFV=awaken
+“He or she awakened it.”
+```
+
+Nouns have only two overt core cases: agentive `-ka` for transitive agents and patientive/accusative `-m` for transitive patients. The intransitive sole argument is unmarked.
+
+```text
+!vo.nga
+star.S
+“The star appears.”
+```
+
+```text
+!vo.nga-ka sa=qi=na=!qha.rum qaa.!ren-m
+star-AGT A.3=O.3=PFV=create sacred.record-ACC
+“The star created the sacred record.”
+```
+
+```text
+qaa.!ren i=yu=khu.!ri
+sacred.record S.3=IPFV=awaken
+“The sacred record is becoming active.”
+```
+
+The ordinary finite verbal template is:
+
+```text
+(clause-particle)=ARGUMENT INDEXES=TAM=(mood)=(incorporated noun)-ROOT-(derivation)-(evidential)
+```
+
+An incorporated noun precedes the verbal root and forms a compound verbal stem with it. Derivational morphology normally attaches to the resulting incorporated verbal stem unless explicitly marked as root-specific in lexical tradition.
+
+Evidential enclitics scope over the clause and may attach to the finite verbal complex or, in fuller postverbal noun-phrase constructions, to the final overt constituent.
+
+```text
+!rh^ii=sa=qi=na=qaa.!ren-!qha.rum=ae
+RIT=A.3=O.3=PFV=sacred.record-create=INFERRED
+“By ritual utterance, the creator has brought forth the record, as inferred from signs.”
+```
+
+Noun incorporation is common in formal narrative and extremely common in magical speech. An incorporated noun precedes and is hyphenated to the verbal root; it is not an independent object noun phrase. It normally loses overt case marking, but the patient index remains on the verb. This ceremonial requirement is called echo indexing.
+
+```text
+sa=qi=na=qaa.!ren-!qha.rum !qha^a.rum-ka
+A.3=O.3=PFV=sacred.record-create primordial.creator-AGT
+“The primordial creator made a sacred record.”
+```
+
+```text
+sa=qi=na=!p'ao.Ham-!qha.rum !A^e.rta.muq-ka
+A.3=O.3=PFV=spell-create magician-AGT
+“The magician brought forth a spell.”
+```
+
+A non-incorporated patient remains an independent noun phrase and takes `-m`.
+
+```text
+sa=qi=na=!qha.rum qaa.!ren-m !qha^a.rum-ka
+A.3=O.3=PFV=create sacred.record-ACC primordial.creator-AGT
+“The primordial creator made the sacred record.”
+```
+
+The tense–aspect system includes `na=` perfective, `yu=` imperfective, `ha=` prospective, `ma=` habitual, and `ra=` remote or mythic past.
+
+```text
+sa=qi=na=!qha.rum !ka.zyum-m !A^e.rta.muq-ka
+A.3=O.3=PFV=create vessel-ACC magician-AGT
+“The magician made the vessel.”
+```
+
+```text
+sa=qi=yu=!qha.rum !ka.zyum-m !A^e.rta.muq-ka
+A.3=O.3=IPFV=create vessel-ACC magician-AGT
+“The magician is making the vessel.”
+```
+
+```text
+sa=qi=ha=!qha.rum !ka.zyum-m !A^e.rta.muq-ka
+A.3=O.3=PROSP=create vessel-ACC magician-AGT
+“The magician will bring the vessel into being.”
+```
+
+```text
+sa=qi=ma=!qha.rum qaa.!ren-m !A^e.rta.muq-ka
+A.3=O.3=HAB=create sacred.record-ACC magician-AGT
+“The magician habitually creates sacred records.”
+```
+
+`ra=` marks not merely earlier time, but mythic, primordial, unreachable, or textually inherited time. It may frame even a historical event as part of sacred tradition.
+
+```text
+sa=qi=ra=!qha.rum !vo.nga-m !qha^a.rum-ka
+A.3=O.3=MYTH.PST=create star-ACC primordial.creator-AGT
+“In primordial time, the creator made the star.”
+```
+
+Evidential enclitics distinguish the authority or source of knowledge.
+
+| Enclitic | Meaning |
+|---|---|
+| `=i` | directly witnessed |
+| `=u` | revealed through vision, trance, sacred transmission, or divine communication |
+| `=ae` | inferred from signs, effects, traces, or reasoning |
+| `=ao` | archival, quoted from a record or sacred text |
+
+```text
+i=na=khu.!ri=i !p'ao.Ham
+S.3=PFV=awaken=WIT spell
+“I witnessed the spell awaken.”
+```
+
+```text
+sa=qi=na=!qha.rum !vo.nga-m !qha^a.rum-ka=u
+A.3=O.3=PFV=create star-ACC primordial.creator-AGT=REVEALED
+“The creator made the star, as revealed.”
+```
+
+```text
+sa=qi=na=!qha.rum !ka.zyum-m !A^e.rta.muq-ka=ae
+A.3=O.3=PFV=create vessel-ACC magician-AGT=INFERRED
+“The magician made the vessel, judging from the signs.”
+```
+
+```text
+sa=qi=na=!qha.rum qaa.!ren-m !qha^a.rum-ka=ao
+A.3=O.3=PFV=create sacred.record-ACC primordial.creator-AGT=ARCHIVAL
+“According to the archive, the creator made the sacred record.”
+```
+
+The distinction between `=u` and `=ao` is especially important: revelation is living authority, while archival evidence is preserved authority.
+
+The ceremonial particle `!rh^ii=` marks operative, performative, or cosmologically binding speech. An ordinary clause reports an action; an operative clause is believed to establish, renew, reveal, bind, awaken, or stabilize the state named by speaking it correctly.
+
+```text
+!rh^ii=sa=qi=ha=!qha.rum !ka.zyum-m !A^e.rta.muq-ka
+RIT=A.3=O.3=PROSP=create vessel-ACC magician-AGT
+“Let the magician bring the vessel into being.”
+```
+
+```text
+!rh^ii=sa=qi=na=!qha.rum !qha.rha.^aem-m !A^e.rta.muq-ka
+RIT=A.3=O.3=PFV=create binding.spell-ACC magician-AGT
+“By this utterance, the magician has established the binding spell.”
+```
+
+The perfective operative construction declares the act complete through speaking rather than merely reporting a prior completed event.
+
+Ordinary imperatives usually omit agent marking.
+
+```text
+ha=!qha.rum !ka.zyum-m
+PROSP=create vessel-ACC
+“Make the vessel.”
+```
+
+Ritual imperatives use `!rh^ii=` and normally retain the patient index to prevent dangerous ambiguity.
+
+```text
+!rh^ii=qi=ha=!qha.rum !ka.zyum-m
+RIT=O.3=PROSP=create vessel-ACC
+“Let the vessel be brought into being.”
+```
+
+Negation is expressed by invariant `!^i`, placed immediately before the finite verbal complex. It does not alter agreement, aspect, or evidential morphology.
+
+```text
+!^i sa=qi=na=!qha.rum qaa.!ren-m !qha^a.rum-ka
+NEG A.3=O.3=PFV=create sacred.record-ACC primordial.creator-AGT
+“The creator did not make the sacred record.”
+```
+
+```text
+!^i i=yu=khu.!ri=i !p'ao.Ham
+NEG S.3=IPFV=awaken=WIT spell
+“I do not witness the spell awakening.”
+```
+
+In ritual language, negation may protectively deny an unwanted state rather than simply report non-occurrence.
+
+```text
+!rh^ii=!^i qi=ha=!qha.rum !qho.ghae.nuq-m
+RIT=NEG O.3=PROSP=create void-fire-crossing-ACC
+“By ritual prohibition, let the void-fire crossing not be brought into being.”
+```
+
+Possession has several constructions. Alienable possession uses `!n^a`, with the possessor normally following the possessed noun. In formal class-agreeing language, `!n^a` takes the class prefix of the possessed noun; the bare form is the ordinary neutral form.
+
+```text
+!ka.zyum !n^a !A^e.rta.muq
+vessel POSS magician
+“the magician’s vessel”
+```
+
+```text
+a-!n^a !Hae.qha.rom !qha^a.rum
+NUMINOUS-POSS shrine primordial.creator
+“the primordial creator’s shrine”
+```
+
+Inalienable possession uses a possessive index on the possessed noun.
+
+```text
+i-!te.rhu !qha^a.rum
+S.3.POSS-name primordial.creator
+“the primordial creator’s name”
+```
+
+Sacred, institutional, archival, and canonical possession is commonly expressed through compounding. A possessive compound implies a stable cosmic or institutional relation, not temporary ownership.
+
+```text
+!qha.rum-qaa.!ren
+maker-sacred.record
+“the creator’s canonical record”
+```
+
+```text
+!qha.rum-qaa.!ren !n^a !A^e.rta.muq
+maker-sacred.record POSS magician
+“the magician’s copy or possession of the creator’s canonical record”
+```
+
+## Syntax
+
+The unmarked constituent order is VOS: verb, object or patient, then subject or agent. Full noun phrases are often absent because agreement and discourse context identify the participants.
+
+```text
+sa=qi=na=!qha.rum qaa.!ren-m !qha^a.rum-ka
+A.3=O.3=PFV=create sacred.record-ACC primordial.creator-AGT
+“The primordial creator made the sacred record.”
+```
+
+VOS remains common in ritual recitation even when all participants are known, because the verb is treated as the event-producing center of the clause.
+
+Word order is moderately flexible. Patient-first order foregrounds, contrasts, or ritually centralizes the patient; agent-first order emphasizes the agent. Case marking and verbal indexing preserve roles.
+
+```text
+qaa.!ren-m sa=qi=na=!qha.rum !qha^a.rum-ka
+sacred.record-ACC A.3=O.3=PFV=create primordial.creator-AGT
+“It was the sacred record that the creator made.”
+```
+
+```text
+!qha^a.rum-ka sa=qi=na=!qha.rum qaa.!ren-m
+primordial.creator-AGT A.3=O.3=PFV=create sacred.record-ACC
+“It was the creator who made the sacred record.”
+```
+
+Arguments may be omitted freely where the verbal complex and context identify them. In formal ritual, noun phrases are retained for entities whose identity must be metaphysically exact.
+
+```text
+i=yu=khu.!ri !p'ao.Ham
+S.3=IPFV=awaken spell
+“The spell is awakening.”
+```
+
+Demonstratives, numerals, adjectives, and possessors normally precede the noun. Possessors introduced by `!n^a` follow the possessed noun as part of the possessive phrase. Modifiers show noun-class agreement in formal language, though ordinary speech may omit repeated agreement when reference is clear.
+
+```text
+i-sa qaa.!ren-nyu
+INSCRIBED-DEM sacred.record-DU
+“these two sacred records”
+```
+
+```text
+u-sa !ka.zyum-nyu
+CRAFTED-DEM vessel-DU
+“these two vessels”
+```
+
+Relative clauses normally follow the noun phrase. The relative marker is `!sa`, distinct from the unstressed agent index `sa=`, and resumptive verbal agreement identifies the head noun’s role.
+
+```text
+qaa.!ren !sa sa=qi=na=!qha.rum !qha^a.rum-ka
+sacred.record REL A.3=O.3=PFV=create primordial.creator-AGT
+“the sacred record that the creator made”
+```
+
+```text
+!p'ao.Ham !sa i=yu=khu.!ri
+spell REL S.3=IPFV=awaken
+“the spell that is awakening”
+```
+
+Ceremonial and scholarly prose also uses internally headed correlatives. The noun serving as the relative head occurs within the subordinate clause; following `!sa` refers back to the whole clause.
+
+```text
+[sa=qi=na=!qha.rum qaa.!ren-m !qha^a.rum-ka] !sa i=yu=khu.!ri
+A.3=O.3=PFV=create sacred.record-ACC primordial.creator-AGT REL S.3=IPFV=awaken
+“The record which the creator made is becoming active.”
+```
+
+Yes–no questions begin with clause-initial `!^o`.
+
+```text
+!^o sa=qi=na=!qha.rum qaa.!ren-m !qha^a.rum-ka
+Q A.3=O.3=PFV=create sacred.record-ACC primordial.creator-AGT
+“Did the creator make the sacred record?”
+```
+
+Content questions place the interrogative noun or adverb in the grammatical position appropriate to its role. When an argument is questioned, its usual agreement index may be absent or reduced because the interrogative identifies the unknown role.
+
+```text
+!^o qi=na=!qha.rum qaa.!ren-m
+Q O.3=PFV=create sacred.record-ACC
+“Who created the sacred record?”
+```
+
+```text
+!^o sa=na=!qha.rum !qha^a.rum-ka
+Q A.3=PFV=create primordial.creator-AGT
+“What did the creator make?”
+```
+
+Independent clauses are commonly linked by `!a` “and/then” and `!ma` “but.”
+
+```text
+sa=qi=na=!qha.rum qaa.!ren-m !qha^a.rum-ka !a i=yu=khu.!ri
+A.3=O.3=PFV=create sacred.record-ACC primordial.creator-AGT and S.3=IPFV=awaken
+“The creator made the sacred record, and it is awakening.”
+```
+
+```text
+sa=qi=na=!qha.rum qaa.!ren-m !qha^a.rum-ka !ma !^i i=yu=khu.!ri
+A.3=O.3=PFV=create sacred.record-ACC primordial.creator-AGT but NEG S.3=IPFV=awaken
+“The creator made the sacred record, but it is not awakening.”
+```
+
+Complement clauses use `!qi`.
+
+```text
+!A^e.rta.muq-ka sa=qi=na=!qaa.ren !qi i=yu=khu.!ri !p'ao.Ham
+magician-AGT A.3=O.3=PFV=know COMP S.3=IPFV=awaken spell
+“The magician knew that the spell was awakening.”
+```
+
+Adverbial clauses use `!ha`, commonly “when,” “once,” or “at the time that.” They generally precede the main clause where they establish ritual time, condition, or authority; otherwise they may follow it.
+
+```text
+!ha i=na=khu.!ri !p'ao.Ham, !rh^ii=sa=qi=ha=!qha.rum !ka.zyum-m !A^e.rta.muq-ka
+when S.3=PFV=awaken spell RIT=A.3=O.3=PROSP=create vessel-ACC magician-AGT
+“When the spell awakens, the magician shall bring the vessel into being.”
+```
+
+Magical syntax permits spells to be construed as texts, utterances, sacred powers, agents, bindings, paths, events, or laws according to their class and derivation.
+
+```text
+sa=qi=na=!qha.rum !qha.rha.^aem-m !A^e.rta.muq-ka
+A.3=O.3=PFV=create binding.spell-ACC magician-AGT
+“The magician created the binding spell.”
+```
+
+```text
+i=yu=khu.!ri !qha.rha.^aem
+S.3=IPFV=awaken binding.spell
+“The binding spell is awakening.”
+```
+
+The same creation root can describe mundane making or primordial ordering, depending on derivation, class, TAM, and context.
+
+```text
+sa=qi=na=!qha.rum !ka.zyum-m !A^e.rta.muq-ka
+A.3=O.3=PFV=create vessel-ACC magician-AGT
+“The magician made a vessel.”
+```
+
+```text
+sa=qi=ra=!qha.rum !vo.nga-m !qha^a.rum-ka
+A.3=O.3=MYTH.PST=create star-ACC primordial.creator-AGT
+“In primordial time, the creator brought the star into ordered existence.”
+```
+
+Ceremonial recitation favors parallel verbal frames with only one significant change at a time, preserving exact argument indexing and making semantic structure audible.
+
+```text
+!rh^ii=sa=qi=na=!qha.rum qaa.!ren-m !A^e.rta.muq-ka
+RIT=A.3=O.3=PFV=create sacred.record-ACC magician-AGT
+“By this utterance, the magician establishes the sacred record.”
+```
+
+```text
+!rh^ii=sa=qi=na=!qha.rum !p'ao.Ham-m !A^e.rta.muq-ka
+RIT=A.3=O.3=PFV=create spell-ACC magician-AGT
+“By this utterance, the magician establishes the spell.”
+```
+
+A common ceremonial sequence moves from archival authority, through revelation and awakening, to operative creation.
+
+```text
+sa=qi=na=!qha.rum !p'ao.Ham-m !A^e.rta.muq-ka=ao
+A.3=O.3=PFV=create spell-ACC magician-AGT=ARCHIVAL
+“According to the archive, the magician created the spell.”
+```
+
+```text
+y-sa !p'ao.Ham i=na=khu.!ri=u
+BREATH-DEM spell S.3=PFV=awaken=REVEALED
+“It is revealed that the spoken spell has awakened.”
+```
+
+```text
+!rh^ii=qi=ha=!qha.rum !ka.zyum-m
+RIT=O.3=PROSP=create vessel-ACC
+“Let the vessel be brought into being.”
+```
+
+In ritual interpretation, the sequence does more than report events: archival authority establishes the formula, revelation confirms its awakening, and operative speech directs its intended effect into the world.

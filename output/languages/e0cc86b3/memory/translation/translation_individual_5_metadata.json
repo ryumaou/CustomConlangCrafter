@@ -1,0 +1,172 @@
+{
+  "input_sentence": "Are you hungry?",
+  "lexicon_available": true,
+  "sentence_index": 5,
+  "qa_results": {
+    "final_qa": {
+      "overall_score": 10,
+      "issues": []
+    },
+    "all_iterations": [
+      {
+        "iteration": 1,
+        "qa_data": {
+          "overall_score": 8,
+          "issues": [
+            {
+              "issue": "The proposed second-person sole-intransitive index `ni=` is not documented in the supplied grammar. It is phonologically well formed and correctly occupies the S-index position, but its form is speculative because no non-third-person agreement paradigm is provided.",
+              "type": "grammatical_violation",
+              "correction": "Either explicitly present `ni=` as a proposed extension to an otherwise undocumented person-index paradigm, or use an independently established second-person expression if one is available. The clause structure itself, `!^o ni=yu=!shu.qam`, is otherwise consistent with the verbal template.",
+              "priority": 2
+            },
+            {
+              "issue": "The justification claims that `ni=` fits the language's preference for compact function morphology, but this does not provide language-internal evidence for assigning this particular form to second-person S agreement.",
+              "type": "consistency_error",
+              "correction": "State that the form is newly coined and provisional, ideally with corresponding proposed A.2 and O.2 forms or an explanation of how it fits a broader person-index paradigm.",
+              "priority": 3
+            }
+          ]
+        },
+        "content_length": 732,
+        "amended": true
+      },
+      {
+        "iteration": 2,
+        "qa_data": {
+          "overall_score": 9,
+          "issues": [
+            {
+              "issue": "The second-person sole-intransitive index ni= is not attested in the supplied grammar. Its use is transparently labeled as a provisional paradigm extension and fits the verbal template, but its exact form cannot be verified from the documented language.",
+              "type": "consistency_error",
+              "correction": "Retain ni= only as an explicitly proposed extension, as done here, or provide an attested second-person S-index if one becomes available. A fully conservative translation cannot encode second person with the presently documented index inventory.",
+              "priority": 2
+            },
+            {
+              "issue": "The glossing label 2SG.S is understandable but differs from the grammar's established index notation, which uses labels such as S.3, A.3, and O.3.",
+              "type": "glossing_error",
+              "correction": "Use S.2 (or S.2SG if number must be explicit) for consistency: \"Q S.2=IPFV=be.hungry.\"",
+              "priority": 3
+            }
+          ]
+        },
+        "content_length": 753,
+        "amended": true
+      },
+      {
+        "iteration": 3,
+        "qa_data": {
+          "overall_score": 7,
+          "issues": [
+            {
+              "issue": "The second-person sole-intransitive index ni= is not documented in the supplied grammatical paradigm. Although its placement before the TAM marker follows the verbal template, its form and existence are an unsupported paradigm extension rather than an established grammatical form.",
+              "type": "grammatical_violation",
+              "correction": "Either provide evidence for ni= elsewhere in the language's person-index system or explicitly present the sentence as a tentative extrapolation rather than a fully validated translation. If only documented morphology may be used, the second-person meaning cannot be encoded reliably from the specification alone.",
+              "priority": 1
+            },
+            {
+              "issue": "The proposed grammar note states that ni= occupies a 'required' sole-intransitive index position, but the specification only demonstrates that S indexes precede TAM; it does not establish that an overt S index is obligatorily required in every clause or that ni= is the correct second-person form.",
+              "type": "consistency_error",
+              "correction": "Revise the justification to say that ni= is a proposed S.2 index placed in the position occupied by documented S indexes such as i=, without claiming that its form or obligatory use is established.",
+              "priority": 2
+            },
+            {
+              "issue": "The newly coined lexical root !shu.qam is phonologically well formed, but it is not motivated by an attested lexical or derivational pattern beyond general phonotactic compatibility.",
+              "type": "lexical_error",
+              "correction": "Retain !shu.qam only as an explicitly proposed new lexical item, as the response does, or provide a derivational source if the language is expected to restrict new vocabulary to attested roots and productive morphology.",
+              "priority": 3
+            }
+          ]
+        },
+        "content_length": 672,
+        "amended": true
+      },
+      {
+        "iteration": 4,
+        "qa_data": {
+          "overall_score": 7,
+          "issues": [
+            {
+              "issue": "The second-person singular sole-intransitive index `ni=` is not documented in the supplied grammar. Its placement before the TAM clitic is correctly inferred from the verbal template, but its form, existence, and whether subject indexing is obligatory for second person are unsupported.",
+              "type": "grammatical_violation",
+              "correction": "Mark the form as explicitly hypothetical, as the translation partially does, or provide an attested second-person S-index before presenting this as a definitive translation. If no such index is available, a less committal construction would be needed.",
+              "priority": 1
+            },
+            {
+              "issue": "The lexical verb `!shu.qam` “be hungry; experience hunger” is newly coined rather than attested in the lexicon. Its phonological shape is well formed, but there is no lexical or derivational evidence connecting this root to hunger.",
+              "type": "lexical_error",
+              "correction": "Retain it only as a proposed neologism and label it clearly as such, or use an attested hunger-related lexeme if one is available in a fuller lexicon.",
+              "priority": 2
+            },
+            {
+              "issue": "The gloss `Q S.2=IPFV=be.hungry` is structurally plausible, but the source does not establish the conventional glossing abbreviation or morphology for a second-person singular sole-intransitive index.",
+              "type": "glossing_error",
+              "correction": "Use `S.2SG` if explicitly defining a proposed singular index, and label the gloss as tentative along with the proposed `ni=` paradigm.",
+              "priority": 3
+            }
+          ]
+        },
+        "content_length": 662,
+        "amended": true
+      },
+      {
+        "iteration": 5,
+        "qa_data": {
+          "overall_score": 7,
+          "issues": [
+            {
+              "issue": "The sole-intransitive index ni= is not documented in the grammar. The grammar establishes i= as the common third-person S index, but provides no first- or second-person agreement paradigm from which ni= can be securely inferred.",
+              "type": "grammatical_violation",
+              "correction": "Treat ni= strictly as an explicitly tentative proposed form, as the response does, or avoid presenting the sentence as a confirmed grammatical translation until a documented 2SG.S index is available.",
+              "priority": 2
+            },
+            {
+              "issue": "The verb !shu.qam 'be hungry' is newly coined and has no lexical or derivational support in the supplied lexicon. Its form is phonologically well formed, but its meaning cannot be independently verified.",
+              "type": "lexical_error",
+              "correction": "Retain it only as a clearly labeled proposed lexical item, or use an attested lexical root if one becomes available.",
+              "priority": 2
+            }
+          ]
+        },
+        "content_length": 665,
+        "amended": true
+      },
+      {
+        "iteration": 6,
+        "qa_data": {
+          "overall_score": 6,
+          "issues": [
+            {
+              "issue": "The intransitive predicate lacks the required sole-argument (S) verbal index. The grammar consistently marks intransitive subjects with i=, even when the overt noun phrase is omitted.",
+              "type": "grammatical_violation",
+              "correction": "Add an S index, e.g. !^o i=yu=!shu.qam for “Is he/she/it hungry?” The appropriate non-third-person index would be needed if the intended meaning is specifically “Are you hungry?”",
+              "priority": 1
+            },
+            {
+              "issue": "The finite predicate has no tense-aspect marking. The ordinary finite verbal template includes argument indexes and TAM morphology; a stative present meaning such as “be hungry” would most naturally use imperfective yu=.",
+              "type": "grammatical_violation",
+              "correction": "Use a finite complex such as !^o i=yu=!shu.qam rather than bare !shu.qam.",
+              "priority": 2
+            },
+            {
+              "issue": "The gloss is formally incomplete for a fully grammatical clause because it does not include the missing S-index and TAM categories. As written, “Q be.hungry” accurately reflects the surface words but not a complete well-formed finite construction.",
+              "type": "glossing_error",
+              "correction": "For a corrected form, gloss it as “Q S.3=IPFV=be.hungry” (or with the relevant person index if such an index is available).",
+              "priority": 2
+            }
+          ]
+        },
+        "content_length": 355,
+        "amended": true
+      },
+      {
+        "iteration": 7,
+        "qa_data": {
+          "overall_score": 10,
+          "issues": []
+        },
+        "content_length": 358,
+        "amended": false
+      }
+    ]
+  }
+}

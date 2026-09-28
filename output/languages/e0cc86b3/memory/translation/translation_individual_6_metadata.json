@@ -1,0 +1,122 @@
+{
+  "input_sentence": "Give me the red bird!",
+  "lexicon_available": true,
+  "sentence_index": 6,
+  "qa_results": {
+    "final_qa": {
+      "overall_score": 10,
+      "issues": []
+    },
+    "all_iterations": [
+      {
+        "iteration": 1,
+        "qa_data": {
+          "overall_score": 8,
+          "issues": [
+            {
+              "issue": "The recipient clitic `ni=` is not part of the specified verbal-index inventory. The grammar explicitly provides S, A, and O indexes, but no recipient/dative indexing paradigm or first-person forms. The proposed rule is internally plausible, but it is an unsupported grammatical extension rather than a directly licensed construction.",
+              "type": "grammatical_violation",
+              "correction": "Either establish `ni=` and recipient indexing elsewhere in the grammar as a fuller productive argument-index paradigm, or use an independently defined recipient/dative noun-phrase construction if one is available. If retaining the innovation, specify its position relative to A/O indexes and how it behaves with overt recipient noun phrases.",
+              "priority": 2
+            },
+            {
+              "issue": "The justification slightly overstates the existing evidence: the specification permits multiple pre-TAM indexes for transitive A and O arguments, but does not demonstrate that non-core recipients can be indexed in the same way.",
+              "type": "consistency_error",
+              "correction": "Revise the justification to state that recipient indexing is a proposed extension modeled on the existing multiple-index system, rather than claiming that it is already directly permitted.",
+              "priority": 3
+            }
+          ]
+        },
+        "content_length": 869,
+        "amended": true
+      },
+      {
+        "iteration": 2,
+        "qa_data": {
+          "overall_score": 6,
+          "issues": [
+            {
+              "issue": "The recipient clitic `ni=` and a recipient-index slot are not part of the supplied grammar. The language specification establishes only S, A, and O verbal indexes, and provides no recipient agreement paradigm for ditransitives.",
+              "type": "grammatical_violation",
+              "correction": "Either avoid recipient indexing and use an established construction, or explicitly extend the grammar with a complete recipient-index paradigm, its interaction with A/O/S indexing, and rules for recipient noun phrases and case marking. If retaining the extension, state that `ni=` is a newly introduced first-singular recipient index rather than treating it as an established form.",
+              "priority": 1
+            },
+            {
+              "issue": "The clause lacks an A index and is only interpretable as an imperative by inference from prospective `ha=`. In the established grammar, `ha=` can mark either prospective/future meaning or an ordinary imperative; the supplied gloss does not identify the intended imperative interpretation.",
+              "type": "glossing_error",
+              "correction": "If the intended meaning is an imperative such as “Give me a red bird,” gloss or translate the construction as an imperative/prospective command, e.g. `1SG.REC=PROSP=give ANIM-red bird-ACC` with an accompanying translation “Give me a red bird.” If it is declarative future, add the appropriate agent index and, if required by the new system, clarify the agent noun phrase.",
+              "priority": 2
+            },
+            {
+              "issue": "The proposed recipient rule is under-specified relative to the language's tripartite alignment and core-case system. It does not state whether recipients take an overt case, whether recipient indexing is obligatory, or how it behaves with incorporated patients and formal class agreement.",
+              "type": "consistency_error",
+              "correction": "Specify whether recipient noun phrases are unmarked or receive a dedicated case/relator, whether recipient indexing is optional or obligatory, and how recipient indexes combine with S/A/O indexes, incorporation, imperatives, and class-sensitive formal forms.",
+              "priority": 2
+            }
+          ]
+        },
+        "content_length": 1029,
+        "amended": true
+      },
+      {
+        "iteration": 3,
+        "qa_data": {
+          "overall_score": 8,
+          "issues": [
+            {
+              "issue": "The clitic ha= is defined in the specification as prospective (PROSP), although it is also used pragmatically in ordinary imperatives. Glossing it simply as IMP obscures the language's stated TAM morphology.",
+              "type": "glossing_error",
+              "correction": "Gloss the form as \"1SG.REC=PROSP=give\" while translating the clause idiomatically as an imperative (“Give me the red bird”), or explicitly state that PROSP has imperative force in this construction.",
+              "priority": 2
+            },
+            {
+              "issue": "The recipient-index paradigm and recipient case -ri are substantial grammatical additions not present in the supplied specification. They are internally coherent, but the translation relies on a newly created agreement system rather than on an established ditransitive strategy.",
+              "type": "consistency_error",
+              "correction": "If grammatical expansion is permitted, present this as a proposed extension rather than as an inherited rule. If only established grammar may be used, express the recipient through an independently introduced possessive, adpositional, or other explicitly licensed construction instead of adding a full recipient-index paradigm.",
+              "priority": 2
+            },
+            {
+              "issue": "The new dative suffix -ri is introduced in the word list and rule description but is not illustrated in the translated sentence, since the recipient is pronominal. This is not ungrammatical, but it leaves the new overt-recipient rule unverified.",
+              "type": "consistency_error",
+              "correction": "Add an example with an overt recipient, such as a recipient noun marked with -ri, or omit -ri from the sentence-specific new-word list if it is not needed for this translation.",
+              "priority": 3
+            }
+          ]
+        },
+        "content_length": 1833,
+        "amended": true
+      },
+      {
+        "iteration": 4,
+        "qa_data": {
+          "overall_score": 6,
+          "issues": [
+            {
+              "issue": "The recipient clitic ni= and the entire recipient-index paradigm are not licensed by the supplied grammar. The language specification defines S, A, and O indexes and gives no recipient/dative agreement system. Adding a new obligatory verbal-index series is a substantial grammatical invention rather than a supported extension.",
+              "type": "grammatical_violation",
+              "correction": "Do not use ni= unless a recipient-marking construction is independently established. With the currently supplied grammar, ha=!bu.ram o-!za.qe !ci.lum-m can mean approximately “Give the red bird,” but the recipient “me” cannot be encoded by the proposed ni= system without additional authorized grammar.",
+              "priority": 1
+            },
+            {
+              "issue": "The gloss 1SG.REC treats ni= as an established grammatical morpheme, although it is only introduced through an unsupported proposed rule. This makes the gloss appear more grammatically secure than the specification permits.",
+              "type": "glossing_error",
+              "correction": "Either remove ni= and gloss the remaining supported imperative as PROSP=give ANIM-red bird-ACC, or explicitly mark the recipient morphology as a hypothetical/experimental extension rather than presenting it as part of the language's established grammar.",
+              "priority": 2
+            }
+          ]
+        },
+        "content_length": 1216,
+        "amended": true
+      },
+      {
+        "iteration": 5,
+        "qa_data": {
+          "overall_score": 10,
+          "issues": []
+        },
+        "content_length": 367,
+        "amended": false
+      }
+    ]
+  }
+}

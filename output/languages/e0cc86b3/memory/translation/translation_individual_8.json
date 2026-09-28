@@ -1,0 +1,22 @@
+{
+  "sentences": [
+    {
+      "conlang_sentence": "!^i ni=qi=yu=!zi.laq !mi.rak-rta-m",
+      "gloss": "NEG 1SG.A=3.O=IPFV=see cat-TRI-ACC",
+      "new_words": [
+        {
+          "!zi.laq": "see; visually perceive"
+        },
+        {
+          "!mi.rak": "cat"
+        }
+      ],
+      "new_grammar_rules": [
+        {
+          "rule": "The first-person singular transitive-agent index is ni=, occupying the normal A-index position before the patient index and TAM clitic.",
+          "justification": "The specification provides only third-person tripartite verbal indexes. A first-person A index is required for “I”; ni= is a short unstressed clitic consistent with the language's verbal morphology."
+        }
+      ]
+    }
+  ]
+}

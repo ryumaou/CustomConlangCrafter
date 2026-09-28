@@ -1,0 +1,22 @@
+{
+  "input_sentence": "The woman and the man are talking.",
+  "lexicon_available": true,
+  "sentence_index": 7,
+  "qa_results": {
+    "final_qa": {
+      "overall_score": 10,
+      "issues": []
+    },
+    "all_iterations": [
+      {
+        "iteration": 1,
+        "qa_data": {
+          "overall_score": 10,
+          "issues": []
+        },
+        "content_length": 383,
+        "amended": false
+      }
+    ]
+  }
+}

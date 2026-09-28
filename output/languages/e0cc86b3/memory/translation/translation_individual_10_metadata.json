@@ -1,0 +1,129 @@
+{
+  "input_sentence": "Two children played in the garden.",
+  "lexicon_available": true,
+  "sentence_index": 10,
+  "qa_results": {
+    "final_qa": {
+      "overall_score": 10,
+      "issues": []
+    },
+    "all_iterations": [
+      {
+        "iteration": 1,
+        "qa_data": {
+          "overall_score": 6,
+          "issues": [
+            {
+              "issue": "The locative suffix -ri is introduced as a new grammatical rule without support from the specification. The grammar explicitly defines only agentive -ka and patientive -m as overt nominal case markers and does not establish a locative case or productive oblique-case system.",
+              "type": "grammatical_violation",
+              "correction": "Do not present -ri as an established grammatical rule. Either use a locative construction attested in the language specification, if one is available, or clearly label -ri as a speculative proposed extension rather than part of the documented language.",
+              "priority": 1
+            },
+            {
+              "issue": "The semantic claim that -ri means specifically ‘in, at, or on’ is unsupported. Even if an oblique suffix were permissible, the specification provides no evidence for its form, scope, or range of locative meanings.",
+              "type": "semantic_error",
+              "correction": "Avoid assigning an unlicensed locative meaning to -ri. A corrected translation should use only a documented spatial construction or acknowledge that the available grammar lacks a specified way to express ‘in the garden.’",
+              "priority": 1
+            },
+            {
+              "issue": "All three lexical roots are newly coined despite the supplied lexicon being the authoritative source of established vocabulary. Their forms are phonotactically plausible, but their meanings and lexical status are not justified beyond being invented for the translation.",
+              "type": "lexical_error",
+              "correction": "Mark !pe.lum, !mu.nyim, and !pa.lem explicitly as proposed neologisms, or use established lexical material if suitable entries exist. Their stress, syllabification, and phonotactics may be retained.",
+              "priority": 2
+            },
+            {
+              "issue": "The gloss is structurally accurate for the proposed sentence, but it treats the unattested LOC suffix as if it were a documented grammatical category.",
+              "type": "glossing_error",
+              "correction": "If retaining the speculative form, gloss it as a proposed or hypothetical locative rather than presenting LOC as established. For documented-language output, omit the unsupported suffix and revise the translation strategy.",
+              "priority": 2
+            }
+          ]
+        },
+        "content_length": 760,
+        "amended": true
+      },
+      {
+        "iteration": 2,
+        "qa_data": {
+          "overall_score": 9,
+          "issues": [
+            {
+              "issue": "The location meaning is fused into a newly coined verb meaning “play in a garden,” rather than expressing “garden” as an independent noun or locative phrase. This is grammatically possible given the language's broad roots and productive incorporation tendencies, but it makes the garden referent less independently accessible.",
+              "type": "lexical_error",
+              "correction": "If the intended meaning requires a separately identifiable garden, introduce a noun for “garden” and use an appropriate locative construction when such morphology is available. Otherwise, the proposed verbal neologism is acceptable.",
+              "priority": 3
+            }
+          ]
+        },
+        "content_length": 379,
+        "amended": true
+      },
+      {
+        "iteration": 3,
+        "qa_data": {
+          "overall_score": 4,
+          "issues": [
+            {
+              "issue": "The suffix -ka is already defined in the grammar as the agentive case marker for transitive agents, not as a locative suffix. Reassigning it to mean “in, at, on” directly contradicts the established case system.",
+              "type": "grammatical_violation",
+              "correction": "Do not gloss or define -ka as LOC. Use an independently introduced, phonologically valid locative relator or suffix that does not conflict with the existing agentive -ka, and explain its place in the grammar."
+            },
+            {
+              "issue": "Because !ri-ka is marked with the established agentive suffix, the sentence formally contains an agentive-marked noun phrase despite using the intransitive S-indexed verb complex i=na=!pe. This creates an incompatible argument structure.",
+              "type": "grammatical_violation",
+              "correction": "If “play” is intransitive, retain i= and leave the child subject unmarked, but express the garden with a genuine locative construction rather than -ka. Alternatively, use a transitive verb and the required A/O indexes only if the intended meaning is genuinely transitive."
+            },
+            {
+              "issue": "The proposed new grammar rule explicitly overrides a core grammatical rule already specified for -ka. A new rule cannot redefine an existing productive core-case suffix without establishing a motivated homophony or register-specific exception.",
+              "type": "consistency_error",
+              "correction": "Introduce a distinct locative morpheme instead of redefining -ka. If intentional homophony is desired, provide explicit evidence that a locative -ka is a separate morpheme and explain how it is distinguished from agentive -ka."
+            },
+            {
+              "issue": "The gloss “garden-LOC” is inaccurate under the supplied grammar, where -ka must be glossed AGT when attached to a noun.",
+              "type": "glossing_error",
+              "correction": "Either gloss !ri-ka as garden-AGT according to the existing grammar, which would reveal the sentence’s structural problem, or replace -ka with a valid locative marker and gloss that marker LOC."
+            },
+            {
+              "issue": "The new lexical forms !pe, !ri, and !mu.nyim are broadly phonotactically possible, but the very short content roots !pe and !ri are somewhat atypical because ordinary content words are described as usually disyllabic or trisyllabic.",
+              "type": "phonological_violation",
+              "correction": "This is only a minor stylistic concern: the forms may remain if treated as common short roots, but more typical ordinary vocabulary could use disyllabic forms."
+            }
+          ]
+        },
+        "content_length": 766,
+        "amended": true
+      },
+      {
+        "iteration": 4,
+        "qa_data": {
+          "overall_score": 7,
+          "issues": [
+            {
+              "issue": "The newly coined verb !pelu contains l, but /l/ and the ASCII spelling l are not present in the language's consonant inventory. This makes the central verb phonologically ill-formed.",
+              "type": "phonological_violation",
+              "correction": "Replace !pelu with a phonologically licensed root, for example !pe.ru \"play,\" and write the verbal complex as i=na=!pe.ru.",
+              "priority": 1
+            },
+            {
+              "issue": "The new multisyllabic lexical items omit the normal period-based syllable divisions used for content words in the standard written forms.",
+              "type": "consistency_error",
+              "correction": "Write the roots with explicit syllable boundaries, e.g. !pe.ru, !ri.ma-mi, and !mu.nyi.ma-nyu.",
+              "priority": 3
+            }
+          ]
+        },
+        "content_length": 918,
+        "amended": true
+      },
+      {
+        "iteration": 5,
+        "qa_data": {
+          "overall_score": 10,
+          "issues": []
+        },
+        "content_length": 934,
+        "amended": false
+      }
+    ]
+  }
+}

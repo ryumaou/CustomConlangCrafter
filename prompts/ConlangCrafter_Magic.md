@@ -8,37 +8,48 @@
 
 # 1. Project Information
 
-**Project Name:** \[Name used to identify this language project\]
+**Project Name:** \[magic\]
 **Language Name:** \[AUTO\] **Language Family:** \[AUTO\] **Parent /
 Proto-Language:** \[NONE\] **Related Languages:** \[NONE\] **Project
-Notes:** \[Anything I should know about the purpose of this language\]
+Notes:** \[This language is the language spoken by the creatures of magic and creation from the time before human-kind lived\]
 
 # 2. Generation Settings
 
-**Model:** `gemini-2.5-pro` **Phonology Questions:** `15` **Phonology
-Answers per Question:** `6` **Phonology Scale Size:** `5` **Example
-Phonology Words:** `50` **Grammar Questions:** `15` **Grammar Answers
-per Question:** `6` **Grammar Scale Size:** `5` **Initial Lexicon
-Size:** `300` **Lexicon Entries per Iteration:** `40` **Maximum Lexicon
-Iterations:** `10` **QA Enabled:** `YES` **QA Threshold:** `AUTO`
-**Other Command-Line Options:** \[NONE\]
+**Provider:** `OpenAI`
+
+**Model:** `gpt-5.6-terra`
+
+**Reasoning Effort:** `medium`
+
+**Model Strategy:** - `gpt-5.6-luna` --- inexpensive experiments, trial
+languages, and bulk work. - `gpt-5.6-terra` --- default for serious
+language construction. - `gpt-5.6-sol` --- quality-first option for
+canonical/final languages.
+
+**Override Model:** \[NONE\]
+
+**Phonology Questions:** `15` **Phonology Answers per Question:** `6`
+**Phonology Scale Size:** `5` **Example Phonology Words:** `50`
+**Grammar Questions:** `15` **Grammar Answers per Question:** `6`
+**Grammar Scale Size:** `5` **Initial Lexicon Size:** `300` **Lexicon
+Entries per Iteration:** `40` **Maximum Lexicon Iterations:** `10` **QA
+Enabled:** `YES` **QA Threshold:** `AUTO` **Other Command-Line
+Options:** \[NONE\]
 
 # 3. Language Concept
 
-**People / Culture:** \[Describe the speakers\] **Setting:** \[Fantasy /
-Science Fiction / Historical / Alternate History / Other\] **Technology
-Level:** \[AUTO\] **Primary Language Role:** \[Everyday / Imperial /
-Prestige / Religious / Trade / Military / Scholarly / Other\] **Desired
-Overall Sound / Feel:** \[AUTO\] **Real-World Inspirations:** \[NONE\]
+**People / Culture:** \[non-human extra-planar beings of magic\] **Setting:** \[Fantasy\] **Technology
+Level:** \[AUTO\] **Primary Language Role:** \[Religious and Scholarly\] **Desired
+Overall Sound / Feel:** \[alien, but familiar in a strange way\] **Real-World Inspirations:** \[Ancient Egyptian\]
 **Languages or Styles to Avoid:** \[NONE\] **General Design Notes:**
 \[AUTO\]
 
 # 4. History
 
-**Language Age:** \[AUTO\] **Historical Character:** \[AUTO\] **Known
+**Language Age:** \[ancient\] **Historical Character:** \[AUTO\] **Known
 Ancestor:** \[NONE\] **Historical Influences:** \[NONE\] **Borrowing
-from Other Languages:** \[AUTO\] **Dialect Diversity:** \[AUTO\]
-**Standardization:** \[AUTO\] **Archaic / Ceremonial Form:** \[NONE\]
+from Other Languages:** \[NONE\] **Dialect Diversity:** \[AUTO\]
+**Standardization:** \[AUTO\] **Archaic / Ceremonial Form:** \[Ceremonial\]
 **Difference Between Spoken and Written Language:** \[AUTO\]
 **Historical Notes:** \[AUTO\]
 
@@ -71,7 +82,7 @@ Sound Combinations:** \[NONE\] **Additional Phonotactic Notes:**
 # 8. Writing and Orthography
 
 **Writing System:** \[Latin\] **Orthographic Style:** \[AUTO\] **ASCII
-Only:** \[NO\] **Diacritics:** \[AUTO\] **Digraphs:** \[AUTO\]
+Only:** \[YES\] **Diacritics:** \[AUTO\] **Digraphs:** \[AUTO\]
 **Capitalization:** \[AUTO\] **Word Separation:** \[Spaces\]
 **Apostrophes:** \[AUTO\] **Hyphens:** \[AUTO\] **Desired Visual
 Appearance:** \[AUTO\] **Avoid Visual Resemblance To:** \[NONE\]
@@ -159,8 +170,8 @@ Set each domain to `HIGH`, `NORMAL`, `LOW`, or `N/A`.
 **Agriculture:** NORMAL **Animals:** NORMAL **Astronomy:** NORMAL
 **Bureaucracy:** NORMAL **Commerce:** NORMAL **Family / Kinship:**
 NORMAL **Fishing:** NORMAL **Hunting:** NORMAL **Law:** NORMAL
-**Magic:** N/A **Maritime Life:** NORMAL **Military:** NORMAL
-**Mining:** NORMAL **Religion:** NORMAL **Social Status:** NORMAL
+**Magic:** HIGH **Maritime Life:** NORMAL **Military:** NORMAL
+**Mining:** NORMAL **Religion:** HIGH **Social Status:** NORMAL
 **Technology:** NORMAL **Trade:** NORMAL **Weather:** NORMAL
 **Wilderness:** NORMAL **Additional Domains:** \[NONE\] **Especially
 Important Concepts:** \[AUTO\] **Concepts Unimportant or Unknown to the
@@ -226,7 +237,7 @@ be expressed using established grammar.
 Put rules here that ConlangCrafter **must not override**.
 
 ``` text
-[NONE]
+[Do NOT use IPA, but use standard Latin characters and assume transliteration]
 ```
 
 # 25. Soft Preferences

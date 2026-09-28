@@ -15,26 +15,13 @@ Notes:** \[Anything I should know about the purpose of this language\]
 
 # 2. Generation Settings
 
-**Provider:** `OpenAI`
-
-**Model:** `gpt-5.6-terra`
-
-**Reasoning Effort:** `medium`
-
-**Model Strategy:** - `gpt-5.6-luna` --- inexpensive experiments, trial
-languages, and bulk work. - `gpt-5.6-terra` --- default for serious
-language construction. - `gpt-5.6-sol` --- quality-first option for
-canonical/final languages.
-
-**Override Model:** \[NONE\]
-
-**Phonology Questions:** `15` **Phonology Answers per Question:** `6`
-**Phonology Scale Size:** `5` **Example Phonology Words:** `50`
-**Grammar Questions:** `15` **Grammar Answers per Question:** `6`
-**Grammar Scale Size:** `5` **Initial Lexicon Size:** `300` **Lexicon
-Entries per Iteration:** `40` **Maximum Lexicon Iterations:** `10` **QA
-Enabled:** `YES` **QA Threshold:** `AUTO` **Other Command-Line
-Options:** \[NONE\]
+**Model:** `gemini-2.5-pro` **Phonology Questions:** `15` **Phonology
+Answers per Question:** `6` **Phonology Scale Size:** `5` **Example
+Phonology Words:** `50` **Grammar Questions:** `15` **Grammar Answers
+per Question:** `6` **Grammar Scale Size:** `5` **Initial Lexicon
+Size:** `300` **Lexicon Entries per Iteration:** `40` **Maximum Lexicon
+Iterations:** `10` **QA Enabled:** `YES` **QA Threshold:** `AUTO`
+**Other Command-Line Options:** \[NONE\]
 
 # 3. Language Concept
 

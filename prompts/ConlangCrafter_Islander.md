@@ -1,291 +1,395 @@
-# ConlangCrafter New Language Project
+# ConlangCrafter Daughter Language Project
 
-> Fill out the fields you care about. Use `AUTO` to let ConlangCrafter
-> decide. Use `NONE` when the language specifically should not have a
-> feature.
-
-------------------------------------------------------------------------
+> Complete this after a parent/proto-language exists. Use `INHERIT` to
+> retain a parent feature, `AUTO` for plausible historical development,
+> and `NONE` to exclude it. Hard Requirements override all other
+> preferences.
 
 # 1. Project Information
 
-**Project Name:** \[Name used to identify this language project\]
-**Language Name:** \[AUTO\] **Language Family:** \[AUTO\] **Parent /
-Proto-Language:** \[NONE\] **Related Languages:** \[NONE\] **Project
-Notes:** \[Anything I should know about the purpose of this language\]
+**Project Name:** \[AUTO\]\
+**Daughter Language Name:** \[AUTO\]\
+**Parent Language Name:** \[REQUIRED\]\
+**Parent ConlangCrafter Language ID:** \[REQUIRED if available\]\
+**Parent Project File:** \[filename/path if available\]\
+**Parent Language Sketch / Reference:** \[filename/path or NONE\]\
+**Sibling Languages:** \[NONE\]\
+**Language Family:** \[INHERIT\]\
+**Project Notes:** \[AUTO\]
 
 # 2. Generation Settings
 
-**Model:** `gemini-2.5-pro` **Phonology Questions:** `15` **Phonology
-Answers per Question:** `6` **Phonology Scale Size:** `5` **Example
-Phonology Words:** `50` **Grammar Questions:** `15` **Grammar Answers
-per Question:** `6` **Grammar Scale Size:** `5` **Initial Lexicon
-Size:** `300` **Lexicon Entries per Iteration:** `40` **Maximum Lexicon
-Iterations:** `10` **QA Enabled:** `YES` **QA Threshold:** `AUTO`
+**Provider:** `OpenAI`\
+**Model:** `gpt-5.6-terra`\
+**Reasoning Effort:** `medium`
+
+**Model Strategy:** - `gpt-5.6-luna` --- inexpensive exploratory
+daughter-language variants. - `gpt-5.6-terra` --- default for serious
+historical development. - `gpt-5.6-sol` --- quality-first option for
+complex/canonical historical evolution.
+
+**Override Model:** \[NONE\]\
+**Phonology Questions:** `15`\
+**Phonology Answers per Question:** `6`\
+**Phonology Scale Size:** `5`\
+**Example Phonology Words:** `50`\
+**Grammar Questions:** `15`\
+**Grammar Answers per Question:** `6`\
+**Grammar Scale Size:** `5`\
+**Initial Lexicon Size:** `300`\
+**Lexicon Entries per Iteration:** `40`\
+**Maximum Lexicon Iterations:** `10`\
+**QA Enabled:** `YES`\
+**QA Maximum Iterations:** `10`\
+**QA Threshold --- Phonology:** `9`\
+**QA Threshold --- Grammar:** `9`\
+**QA Threshold --- Lexicon:** `9`\
+**QA Threshold --- Translation:** `10`\
 **Other Command-Line Options:** \[NONE\]
 
-# 3. Language Concept
+# 3. Historical Relationship
 
-**People / Culture:** \[Describe the speakers\] **Setting:** \[Fantasy /
-Science Fiction / Historical / Alternate History / Other\] **Technology
-Level:** \[AUTO\] **Primary Language Role:** \[Everyday / Imperial /
-Prestige / Religious / Trade / Military / Scholarly / Other\] **Desired
-Overall Sound / Feel:** \[AUTO\] **Real-World Inspirations:** \[NONE\]
-**Languages or Styles to Avoid:** \[NONE\] **General Design Notes:**
+**Relationship to Parent:** \[Direct descendant / Dialect descendant /
+Creole / Mixed / Other\]\
+**Approximate Time Since Separation:** \[AUTO\]\
+**Degree of Divergence:** \[LOW / MODERATE / HIGH / EXTREME / AUTO\]\
+**Mutual Intelligibility with Parent:** \[AUTO\]\
+**Geographic Separation:** \[AUTO\]\
+**Political / Social Separation:** \[AUTO\]\
+**Prestige Relationship to Parent:** \[AUTO\]\
+**Parent Still Spoken?:** \[AUTO\]\
+**Parent Retained as Liturgical / Scholarly / Legal Language?:**
 \[AUTO\]
 
-# 4. History
+# 4. Daughter Culture and Environment
 
-**Language Age:** \[AUTO\] **Historical Character:** \[AUTO\] **Known
-Ancestor:** \[NONE\] **Historical Influences:** \[NONE\] **Borrowing
-from Other Languages:** \[AUTO\] **Dialect Diversity:** \[AUTO\]
-**Standardization:** \[AUTO\] **Archaic / Ceremonial Form:** \[NONE\]
-**Difference Between Spoken and Written Language:** \[AUTO\]
-**Historical Notes:** \[AUTO\]
+**Daughter Population / Culture:** \[AUTO\]\
+**Geographic Environment:** \[AUTO\]\
+**Technology Changes:** \[AUTO\]\
+**Political Changes:** \[AUTO\]\
+**Economic Changes:** \[AUTO\]\
+**Religious Changes:** \[AUTO\]\
+**Major Historical Events:** \[AUTO\]\
+**New Cultural Domains:** \[AUTO\]\
+**Lost Cultural Domains:** \[NONE\]
 
-# 5. Consonants
+# 5. Language Contact
 
-**Consonant Inventory Size:** \[AUTO\] **Desired Consonants:** \[AUTO\]
-**Forbidden Consonants:** \[NONE\] **Plosives:** \[AUTO\]
-**Fricatives:** \[AUTO\] **Affricates:** \[AUTO\] **Nasals:** \[AUTO\]
-**Liquids:** \[AUTO\] **Approximants:** \[AUTO\] **Unusual Sounds:**
-\[NONE\] **Voicing Contrast:** \[AUTO\] **Consonant Length /
-Gemination:** \[AUTO\] **Additional Consonant Notes:** \[AUTO\]
+**Contact Languages / Peoples:** \[NONE\]\
+**Contact Intensity:** \[NONE / LOW / MODERATE / HIGH\]\
+**Borrowing Level:** \[AUTO\]\
+**Primary Borrowing Domains:** \[AUTO\]\
+**Prestige Language Influence:** \[NONE\]\
+**Substrate Influence:** \[NONE\]\
+**Superstrate Influence:** \[NONE\]\
+**Trade-Language Influence:** \[NONE\]\
+**Religious / Scholarly Influence:** \[NONE\]\
+**Loanword Adaptation Rules:** \[AUTO\]\
+**Structural Borrowing Allowed?:** \[AUTO\]
 
-# 6. Vowels
+# 6. Sound Change Strategy
 
-**Number of Vowels:** \[AUTO\] **Desired Vowels:** \[AUTO\] **Vowel
-Length:** \[AUTO\] **Diphthongs:** \[AUTO\] **Vowel Harmony:** \[NONE\]
-**Nasal Vowels:** \[AUTO\] **Reduced Vowels:** \[AUTO\] **Tone:**
-\[NONE\] **Pitch Accent:** \[NONE\] **Additional Vowel Notes:** \[AUTO\]
+**Overall Phonological Conservatism:** \[AUTO\]\
+**Regular Sound Change Required:** `YES`\
+**Exceptions Allowed:** \[LIMITED / AUTO\]\
+**Analogical Leveling Allowed:** `YES`
 
-# 7. Phonotactics
+List known sound changes in chronological order:
 
-**Basic Syllable Structure:** \[AUTO\] **Initial Consonant Clusters:**
-\[AUTO\] **Final Consonants:** \[AUTO\] **Final Consonant Clusters:**
-\[AUTO\] **Maximum Consonant Cluster:** \[AUTO\] **Typical Word
-Length:** \[AUTO\] **Stress Pattern:** \[AUTO\] **Rhythm:** \[AUTO\]
-**Hiatus:** \[AUTO\] **Preferred Sound Patterns:** \[AUTO\] **Forbidden
-Sound Combinations:** \[NONE\] **Additional Phonotactic Notes:**
-\[AUTO\]
+``` text
+1. [AUTO]
+2. [AUTO]
+3. [AUTO]
+```
 
-# 8. Writing and Orthography
+Example forms: `*p > f / #_`, `*k > ch / _{i,e}`, `ai > ē`,
+`t > d / V_V`, `final unstressed vowels > Ø`.
 
-**Writing System:** \[Latin\] **Orthographic Style:** \[AUTO\] **ASCII
-Only:** \[NO\] **Diacritics:** \[AUTO\] **Digraphs:** \[AUTO\]
-**Capitalization:** \[AUTO\] **Word Separation:** \[Spaces\]
-**Apostrophes:** \[AUTO\] **Hyphens:** \[AUTO\] **Desired Visual
-Appearance:** \[AUTO\] **Avoid Visual Resemblance To:** \[NONE\]
-**Additional Orthographic Notes:** \[AUTO\]
+# 7. Consonant Evolution
 
-# 9. Basic Grammar
+**Inherited Inventory:** \[INHERIT\]\
+**Consonant Losses:** \[AUTO\]\
+**Consonant Mergers:** \[AUTO\]\
+**Consonant Splits:** \[AUTO\]\
+**Lenition:** \[AUTO\]\
+**Fortition:** \[AUTO\]\
+**Palatalization:** \[AUTO\]\
+**Assimilation / Dissimilation:** \[AUTO\]\
+**Metathesis:** \[AUTO\]\
+**Gemination Changes:** \[AUTO\]\
+**New Consonants:** \[AUTO\]\
+**Forbidden Daughter Sounds:** \[NONE\]
 
-**Morphological Type:** \[AUTO\] **Primary Word Order:** \[AUTO\]
-**Word-Order Flexibility:** \[AUTO\] **Head Direction:** \[AUTO\]
-**Grammatical Alignment:** \[AUTO\] **Head vs. Dependent Marking:**
-\[AUTO\] **Prefixing / Suffixing Preference:** \[AUTO\]
-**Reduplication:** \[AUTO\] **Additional Grammar Notes:** \[AUTO\]
+# 8. Vowel Evolution
 
-# 10. Nouns
+**Inherited Inventory:** \[INHERIT\]\
+**Vowel Loss:** \[AUTO\]\
+**Vowel Mergers:** \[AUTO\]\
+**Vowel Splits:** \[AUTO\]\
+**Length Changes:** \[AUTO\]\
+**Diphthongization:** \[AUTO\]\
+**Monophthongization:** \[AUTO\]\
+**Vowel Reduction:** \[AUTO\]\
+**Harmony Development / Loss:** \[AUTO\]\
+**Nasalization:** \[AUTO\]\
+**Tone / Pitch Development:** \[AUTO\]
 
-**Number System:** \[AUTO\] **Number of Cases:** \[AUTO\] **Cases:**
-\[AUTO\] **Grammatical Gender:** \[NONE\] **Noun Classes:** \[NONE\]
-**Articles:** \[AUTO\] **Article Position:** \[AUTO\] **Noun
-Classifiers:** \[NONE\] **Possession:** \[AUTO\] **Alienable /
-Inalienable Possession:** \[AUTO\] **Diminutives:** \[AUTO\]
-**Augmentatives:** \[AUTO\] **Additional Noun Notes:** \[AUTO\]
+# 9. Phonotactic Evolution
 
-# 11. Pronouns
+**Syllable Structure:** \[INHERIT / AUTO\]\
+**Cluster Simplification:** \[AUTO\]\
+**New Clusters from Sound Loss:** \[AUTO\]\
+**Epenthesis:** \[AUTO\]\
+**Final Consonant Changes:** \[AUTO\]\
+**Stress Shift:** \[AUTO\]\
+**Typical Word-Length Change:** \[AUTO\]\
+**Additional Changes:** \[AUTO\]
 
-**Persons:** \[AUTO\] **Inclusive / Exclusive "We":** \[AUTO\] **Dual
-Pronouns:** \[AUTO\] **Gendered Pronouns:** \[AUTO\] **Formality
-Distinctions:** \[AUTO\] **Honorifics:** \[AUTO\] **Pronoun Dropping:**
-\[AUTO\] **Reflexive Pronouns:** \[AUTO\] **Demonstratives:** \[AUTO\]
-**Social Rank Encoded in Pronouns:** \[AUTO\] **Additional Pronoun
-Notes:** \[AUTO\]
+# 10. Orthographic Evolution
 
-# 12. Verbs
+**Retain Parent Orthography:** \[AUTO\]\
+**Spelling Conservatism:** \[AUTO\]\
+**Spelling Reform:** \[AUTO\]\
+**New Letters / Digraphs:** \[AUTO\]\
+**Lost Letters / Digraphs:** \[AUTO\]\
+**Diacritic Changes:** \[AUTO\]\
+**Historical Spellings Preserved?:** \[AUTO\]\
+**Foreign Orthographic Influence:** \[NONE\]\
+**Writing-System Replacement:** \[NONE\]
 
-**Verb Agreement:** \[AUTO\] **Tense System:** \[AUTO\] **Aspect
-System:** \[AUTO\] **Mood System:** \[AUTO\] **Voice:** \[AUTO\]
-**Evidentiality:** \[AUTO\] **Negation:** \[AUTO\] **Infinitive:**
-\[AUTO\] **Participles:** \[AUTO\] **Serial Verbs:** \[AUTO\]
-**Auxiliary Verbs:** \[AUTO\] **Copula ("to be"):** \[AUTO\] **Irregular
-Verbs:** \[AUTO\] **Additional Verb Notes:** \[AUTO\]
+# 11. Morphological Evolution
 
-# 13. Adjectives and Adverbs
+**Overall Morphological Direction:** \[AUTO\]\
+**Inherited Morphology:** \[INHERIT\]\
+**Simplification:** \[AUTO\]\
+**Expansion:** \[AUTO\]\
+**Fusion of Morphemes:** \[AUTO\]\
+**Erosion of Affixes:** \[AUTO\]\
+**New Affixes from Grammaticalization:** \[AUTO\]\
+**Analogical Regularization:** \[AUTO\]\
+**New Irregularities:** \[AUTO\]
 
-**Adjective Position:** \[AUTO\] **Adjective Agreement:** \[AUTO\]
-**Comparatives:** \[AUTO\] **Superlatives:** \[AUTO\] **Adverb
-Position:** \[AUTO\] **Adjectives Can Function as Verbs:** \[AUTO\]
-**Adjectives Can Function as Nouns:** \[AUTO\] **Additional Notes:**
-\[AUTO\]
+# 12. Noun-System Evolution
 
-# 14. Questions and Negation
+**Number System:** \[INHERIT / AUTO\]\
+**Case System:** \[INHERIT / AUTO\]\
+**Cases Lost:** \[AUTO\]\
+**Cases Added:** \[AUTO\]\
+**Case Syncretism:** \[AUTO\]\
+**Gender / Class System:** \[INHERIT / AUTO\]\
+**Articles:** \[INHERIT / AUTO\]\
+**Definiteness Changes:** \[AUTO\]\
+**Possession Changes:** \[AUTO\]\
+**Classifier Changes:** \[AUTO\]
 
-**Yes / No Questions:** \[AUTO\] **Question Particle:** \[AUTO\]
-**WH-Questions:** \[AUTO\] **Negation Method:** \[AUTO\] **Double
-Negation:** \[AUTO\] **Negative Concord:** \[AUTO\] **Additional
-Notes:** \[AUTO\]
+# 13. Pronoun Evolution
 
-# 15. Complex Sentences
+**Inherited Pronouns:** \[INHERIT\]\
+**Person Distinctions:** \[INHERIT / AUTO\]\
+**Inclusive / Exclusive:** \[INHERIT / AUTO\]\
+**Dual:** \[INHERIT / AUTO\]\
+**Gender Distinctions:** \[INHERIT / AUTO\]\
+**Formality / T-V Distinction:** \[AUTO\]\
+**Honorific Development:** \[AUTO\]\
+**Pro-Drop Changes:** \[AUTO\]\
+**Demonstrative Changes:** \[AUTO\]
 
-**Relative Clause Position:** \[AUTO\] **Relative Pronouns:** \[AUTO\]
-**Complement Clauses:** \[AUTO\] **Subordination:** \[AUTO\]
-**Coordination:** \[AUTO\] **Switch Reference:** \[NONE\] **Converbs:**
-\[AUTO\] **Additional Notes:** \[AUTO\]
+# 14. Verb-System Evolution
 
-# 16. Word Formation
+**Tense:** \[INHERIT / AUTO\]\
+**Aspect:** \[INHERIT / AUTO\]\
+**Mood:** \[INHERIT / AUTO\]\
+**Agreement:** \[INHERIT / AUTO\]\
+**Voice:** \[INHERIT / AUTO\]\
+**Evidentiality:** \[INHERIT / AUTO\]\
+**Negation:** \[INHERIT / AUTO\]\
+**Auxiliary Development:** \[AUTO\]\
+**Copula Changes:** \[AUTO\]\
+**Periphrastic Constructions:** \[AUTO\]\
+**New Irregular Verbs:** \[AUTO\]\
+**Regularization of Parent Irregulars:** \[AUTO\]
 
-**Derivational Productivity:** \[HIGH\] **Noun -\> Verb Derivation:**
-\[AUTO\] **Verb -\> Noun Derivation:** \[AUTO\] **Adjective -\> Noun
-Derivation:** \[AUTO\] **Agent Nouns:** \[AUTO\] **Place Nouns:**
-\[AUTO\] **Abstract Nouns:** \[AUTO\] **Diminutive Derivation:**
-\[AUTO\] **Augmentative Derivation:** \[AUTO\] **Causative Derivation:**
-\[AUTO\] **Negative Derivation:** \[AUTO\] **Compounding:** \[HIGH\]
-**Word-Formation Notes:** Prefer derivation, compounding, and semantic
-extension over creating unrelated roots when appropriate.
+# 15. Syntax Evolution
 
-# 17. Numbers
+**Parent Word Order:** \[INHERIT FROM SOURCE\]\
+**Daughter Word Order:** \[INHERIT / AUTO\]\
+**Word-Order Flexibility:** \[INHERIT / AUTO\]\
+**Adposition Changes:** \[AUTO\]\
+**Adjective Position:** \[INHERIT / AUTO\]\
+**Genitive Position:** \[INHERIT / AUTO\]\
+**Relative Clauses:** \[INHERIT / AUTO\]\
+**Question Formation:** \[INHERIT / AUTO\]\
+**Negation Syntax:** \[INHERIT / AUTO\]\
+**Subordination / Coordination:** \[INHERIT / AUTO\]
 
-**Number Base:** \[AUTO\] **Zero:** \[AUTO\] **Ordinals:** \[AUTO\]
-**Number Position Relative to Noun:** \[AUTO\] **Number Agreement:**
-\[AUTO\] **Counting Classifiers:** \[NONE\] **Fractions:** \[AUTO\]
-**Large Numbers:** \[AUTO\] **Additional Number Notes:** \[AUTO\]
+# 16. Lexical Evolution
 
-# 18. Cultural Vocabulary
+**Retain Core Parent Vocabulary:** `YES`\
+**Expected Core Vocabulary Retention:** \[HIGH / MODERATE / LOW /
+AUTO\]\
+**Apply Sound Changes to Inherited Words:** `YES`\
+**Semantic Drift:** \[AUTO\]\
+**Archaic Words Retained:** \[AUTO\]\
+**Parent Words Lost:** \[AUTO\]\
+**New Native Coinages:** \[AUTO\]\
+**Loanword Level:** \[AUTO\]\
+**Calques:** \[AUTO\]\
+**False Friends:** \[AUTO\]\
+**Taboo Replacement:** \[AUTO\]\
+**Folk Etymology:** \[AUTO\]
 
-Set each domain to `HIGH`, `NORMAL`, `LOW`, or `N/A`.
+# 17. Derivational Evolution
 
-**Agriculture:** NORMAL **Animals:** NORMAL **Astronomy:** NORMAL
-**Bureaucracy:** NORMAL **Commerce:** NORMAL **Family / Kinship:**
-NORMAL **Fishing:** NORMAL **Hunting:** NORMAL **Law:** NORMAL
-**Magic:** N/A **Maritime Life:** NORMAL **Military:** NORMAL
-**Mining:** NORMAL **Religion:** NORMAL **Social Status:** NORMAL
-**Technology:** NORMAL **Trade:** NORMAL **Weather:** NORMAL
-**Wilderness:** NORMAL **Additional Domains:** \[NONE\] **Especially
-Important Concepts:** \[AUTO\] **Concepts Unimportant or Unknown to the
-Culture:** \[NONE\]
+**Inherited Derivational System:** \[INHERIT\]\
+**Lost Derivational Affixes:** \[AUTO\]\
+**New Derivational Affixes:** \[AUTO\]\
+**Compounding Productivity:** \[INHERIT / AUTO\]\
+**New Productive Patterns:** \[AUTO\]\
+**Fossilized Patterns:** \[AUTO\]
 
-# 19. Cultural / Semantic Distinctions
+# 18. Numbers
 
-**Time Concepts:** \[AUTO\] **Directional System:** \[AUTO\] **Kinship
-Distinctions:** \[AUTO\] **Age Distinctions:** \[AUTO\] **Social Rank:**
-\[AUTO\] **Animacy:** \[AUTO\] **Sacred / Profane Distinction:**
-\[AUTO\] **Ownership Concepts:** \[AUTO\] **Knowledge / Evidential
-Distinctions:** \[AUTO\] **Movement / Geographic Orientation:** \[AUTO\]
-**Other Important Cultural Distinctions:** \[NONE\]
+**Number Base:** \[INHERIT / AUTO\]\
+**Numeral Sound Changes:** \[APPLY REGULARLY\]\
+**Irregular Numerals:** \[AUTO\]\
+**Ordinal Changes:** \[AUTO\]\
+**Classifier Changes:** \[AUTO\]\
+**Borrowed Numerals:** \[NONE / AUTO\]
 
-# 20. Personal Names
+# 19. Cultural Vocabulary and Semantic Change
 
-**Typical Name Length:** \[AUTO\] **Name Structure:** \[AUTO\]
-**Gendered Names:** \[AUTO\] **Patronymics:** \[AUTO\] **Matronymics:**
-\[AUTO\] **Clan Names:** \[AUTO\] **Epithets:** \[AUTO\] **Regnal
-Names:** \[AUTO\] **Religious Names:** \[AUTO\] **Name Meanings:**
-\[AUTO\] **Desired Naming Style:** \[AUTO\] **Example Names I Like:**
-\[NONE\] **Example Names I Do Not Like:** \[NONE\]
+**Inherited Cultural Domains:** \[INHERIT\]\
+**New High-Priority Domains:** \[AUTO\]\
+**Obsolete Vocabulary Domains:** \[AUTO\]\
+**New Semantic Distinctions:** \[AUTO\]\
+**Lost Semantic Distinctions:** \[AUTO\]\
+**Semantic Narrowing / Broadening:** \[AUTO\]\
+**Metaphorical Extensions:** \[AUTO\]
 
-# 21. Place Names
+# 20. Names and Toponyms
 
-**Place-Name Structure:** \[AUTO\] **Geographic Compounds:** \[AUTO\]
-**Common Place-Name Elements:** \[AUTO\] **Settlement Naming:** \[AUTO\]
-**River Naming:** \[AUTO\] **Mountain Naming:** \[AUTO\] **Province /
-Region Naming:** \[AUTO\] **Treatment of Ancient Place Names:** \[AUTO\]
-**Treatment of Foreign Place Names:** \[AUTO\] **Example Place Names I
-Like:** \[NONE\] **Example Place Names I Do Not Like:** \[NONE\]
+**Personal Names:** \[INHERIT WITH SOUND CHANGES / AUTO\]\
+**New Naming Traditions:** \[AUTO\]\
+**Foreign Naming Influence:** \[NONE\]\
+**Place Names:** \[INHERIT WITH SOUND CHANGES / AUTO\]\
+**Archaic Toponyms Preserved:** \[AUTO\]\
+**Folk-Etymological Toponym Changes:** \[AUTO\]\
+**Exonyms / Endonyms:** \[AUTO\]
 
-# 22. Registers
+# 21. Register Evolution
 
-**Everyday Speech:** \[AUTO\] **Formal Speech:** \[AUTO\] **Court /
-Royal Speech:** \[NONE\] **Religious Register:** \[NONE\] **Military
-Register:** \[AUTO\] **Legal Register:** \[AUTO\] **Poetic Register:**
-\[AUTO\] **Slang / Vulgar Register:** \[AUTO\] **Taboo Language:**
-\[AUTO\] **Euphemisms:** \[AUTO\] **Additional Register Notes:**
-\[AUTO\]
+**Everyday:** \[AUTO\]\
+**Formal:** \[AUTO\]\
+**Archaic Parent Forms in Formal Speech:** \[AUTO\]\
+**Court / Royal:** \[AUTO\]\
+**Religious:** \[AUTO\]\
+**Military:** \[AUTO\]\
+**Legal:** \[AUTO\]\
+**Poetic:** \[AUTO\]\
+**Slang / Vulgar:** \[AUTO\]
 
-# 23. Translation Rules
+# 22. Translation Policy
 
-**Translation Style:** `IDIOMATIC` **Preserve English Word Order:** `NO`
-**Prefer Existing Vocabulary:** `YES` **Prefer Derivation Before New
-Roots:** `YES` **Prefer Compounding Before New Roots:** `YES` **Allow
-Semantic Extension:** `YES` **Create New Roots When Necessary:** `YES`
-**Allow New Grammar During Translation:** `ONLY WHEN NECESSARY`
+**Translation Style:** `IDIOMATIC`\
+**Prefer Inherited Vocabulary:** `YES`\
+**Apply Historical Sound Changes to Inherited Forms:** `YES`\
+**Prefer Native Derivation:** `YES`\
+**Prefer Native Compounding:** `YES`\
+**Allow Semantic Extension:** `YES`\
+**Allow Historically Plausible Borrowing:** `YES`\
+**Create New Roots Only When Needed:** `YES`\
 **Translation Sketch Update:** `YES`
 
-**Translation Notes:** Translations should obey the established language
-rather than reproduce English grammar.
+When vocabulary is missing, prefer: 1. Inherited parent vocabulary
+transformed by established sound changes. 2. Daughter-language
+derivation from inherited roots. 3. Daughter-language compounds. 4.
+Semantic extension. 5. Historically plausible borrowing. 6. New native
+roots.
 
-When vocabulary is missing, prefer: 1. Existing vocabulary. 2. Existing
-roots with derivational morphology. 3. Compounding. 4. Natural semantic
-extension. 5. Creation of a new root.
+# 23. Required Shared Features with Parent
 
-Do not introduce a new grammatical rule when the meaning can reasonably
-be expressed using established grammar.
+``` text
+[AUTO]
+```
 
-# 24. Hard Requirements
+# 24. Required Divergences from Parent
 
-Put rules here that ConlangCrafter **must not override**.
+``` text
+[AUTO]
+```
+
+# 25. Hard Historical Requirements
 
 ``` text
 [NONE]
 ```
 
-# 25. Soft Preferences
-
-Put preferences here that should guide generation but may be modified
-for linguistic naturalism.
+# 26. Soft Historical Preferences
 
 ``` text
 [NONE]
 ```
 
-# 26. Freeform Design Notes
+# 27. Freeform Historical Notes
 
 ``` text
 [NONE]
 ```
 
-# 27. Output Request
+# 28. Output Request
 
-When I give this completed project file to ChatGPT, generate:
+When this completed project and its parent-language source are given to
+ChatGPT, generate:
 
--   [x] Cleaned and normalized language specification
--   [x] ConlangCrafter `--custom-constraints` text
--   [x] Recommended ConlangCrafter settings
--   [x] Complete command line
--   [x] Explanation of important choices
--   [x] Warnings about conflicting requirements
--   [x] Suggested initial translation corpus
--   [ ] Proto-language specification
--   [ ] Daughter-language evolution rules
--   [ ] Language-family tree
+-   [x] Parent/daughter compatibility check
+-   [x] Historical-development summary
+-   [x] Ordered sound-change rules
+-   [x] Inherited vs. innovated feature analysis
+-   [x] Sample parent -\> daughter word transformations
+-   [x] Optimized ConlangCrafter `--custom-constraints`
+-   [x] Recommended model and reasoning effort
+-   [x] Recommended generation settings
+-   [x] Ready-to-paste command line
+-   [x] Suggested translation/evolution test corpus
+-   [x] Warnings about contradictory or implausible developments
+-   [ ] Sibling-language comparison
+-   [ ] Full family-tree update
 
-**Target Operating System:** \[Windows / Linux / macOS\] **Shell:**
-\[PowerShell / CMD / Bash / Zsh / AUTO\] **ConlangCrafter Installation
-Directory:** \[Optional\]
+**Target Operating System:** \[Windows / Linux / macOS\]\
+**Shell:** \[PowerShell / CMD / Bash / Zsh / AUTO\]\
+**ConlangCrafter Installation Directory:** \[Optional\]
 
 # Instructions to ChatGPT
 
-Treat `AUTO` fields as design decisions that ConlangCrafter may make.
+Read the parent language source before constructing the daughter
+language.
 
-Treat `NONE` as an explicit instruction that the feature should not
-exist unless another hard requirement contradicts it.
+Do not treat the daughter as an unrelated new language. Preserve
+inheritance unless this project specifies a change or a plausible
+dependent historical development requires one.
 
-Treat the **Hard Requirements** section as authoritative and the **Soft
-Preferences** section as guidance.
+`INHERIT` means preserve the parent feature, transformed only where
+established historical changes require it.
 
-Check the entire specification for contradictions before constructing
-the command. Do not silently resolve significant contradictions;
-identify them and recommend a resolution.
+`AUTO` means choose a historically plausible development consistent with
+elapsed time, contact, culture, and requested divergence.
 
-Convert the completed design into concise natural-language constraints
-suitable for ConlangCrafter rather than blindly copying every field into
-`--custom-constraints`.
+`NONE` explicitly excludes the feature.
 
-Do not unnecessarily constrain features marked `AUTO`.
+Apply regular sound changes systematically to inherited vocabulary
+unless borrowing, analogy, lexical replacement, or a documented
+exception explains a different outcome.
 
-Generate the final command in a form appropriate for the selected
-operating system and shell.
+Distinguish inherited forms, native innovations, and borrowings.
 
-If the language belongs to an existing language family or descends from
-a proto-language, preserve inherited features and specified historical
-changes rather than designing it as an unrelated language.
+Check parent features against daughter requirements for contradictions
+before producing the command.
+
+Default to `gpt-5.6-terra` with `medium` reasoning. Prefer `gpt-5.6-sol`
+with `high` reasoning for especially complex or canonical historical
+development, and `gpt-5.6-luna` for inexpensive exploratory variants.
+
+ConlangCrafter is not a complete diachronic simulator. Convert this
+historical specification into concise constraints that preserve family
+resemblance and requested innovations as faithfully as the available
+pipeline permits.

@@ -1,0 +1,14 @@
+{
+  "sentences": [
+    {
+      "conlang_sentence": "!^o i=yu=!shu.qam",
+      "gloss": "Q S.3=IPFV=be.hungry",
+      "new_words": [
+        {
+          "!shu.qam": "be hungry; experience hunger. Coined as a phonologically well-formed verbal root because no attested hunger predicate is available."
+        }
+      ],
+      "new_grammar_rules": []
+    }
+  ]
+}

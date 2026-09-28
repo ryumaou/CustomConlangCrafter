@@ -1,0 +1,220 @@
+{
+  "input_sentence": "She will give him water.",
+  "lexicon_available": true,
+  "sentence_index": 3,
+  "qa_results": {
+    "final_qa": {
+      "overall_score": 10,
+      "issues": []
+    },
+    "all_iterations": [
+      {
+        "iteration": 1,
+        "qa_data": {
+          "overall_score": 6,
+          "issues": [
+            {
+              "issue": "The dative case suffix -ru and its use for ditransitive recipients are not specified in the language grammar. The specification explicitly gives only agentive -ka and patientive -m as nominal core-case morphology, and provides no independent evidence for a dative case.",
+              "type": "grammatical_violation",
+              "correction": "Avoid asserting -ru as an established suffix unless the task permits grammatical expansion. If adding it, clearly present it as a proposed extension rather than as a consequence of the existing grammar.",
+              "priority": 1
+            },
+            {
+              "issue": "The claimed fixed ditransitive order Verb–Patient–Recipient–Agent is not supported by the specification. The grammar establishes unmarked VOS order but does not define recipient placement or a dedicated ditransitive constituent order.",
+              "type": "grammatical_violation",
+              "correction": "Treat V–Patient–Recipient–Agent as a proposed extension or use the documented flexible word-order system without claiming that this placement is grammatically established.",
+              "priority": 2
+            },
+            {
+              "issue": "The lexical items !be.rum 'give', !wu.nem 'water', and !mi 'third-person animate pronoun' are all newly invented rather than attested in the supplied lexicon. Their phonological shapes are generally acceptable, but their meanings and grammatical behavior are not independently supported.",
+              "type": "lexical_error",
+              "correction": "If lexical invention is allowed, label these explicitly as coinages and preferably provide class information for water, which would naturally belong to the liquid class. Otherwise, use only lexicon-attested vocabulary.",
+              "priority": 2
+            },
+            {
+              "issue": "The gloss gives the free pronouns !mi as specifically singular and animate, while the verbal indexes sa= and qi= are glossed only as class-neutral third person. This is not necessarily contradictory, but it leaves number and animacy agreement underspecified and makes the two identical pronouns potentially ambiguous.",
+              "type": "glossing_error",
+              "correction": "Clarify that the verbal indexes are class-neutral third-person indexes and that !mi supplies the animate singular interpretation, or provide a fuller translation such as 'He/she will give water to him/her.'",
+              "priority": 3
+            }
+          ]
+        },
+        "content_length": 1257,
+        "amended": true
+      },
+      {
+        "iteration": 2,
+        "qa_data": {
+          "overall_score": 8,
+          "issues": [
+            {
+              "issue": "The dative suffix -ru and the treatment of the recipient as an unindexed oblique argument are not part of the supplied grammar. The response appropriately labels them as proposed extensions, but the construction is therefore not fully supported by the established language specification.",
+              "type": "grammatical_violation",
+              "correction": "Formally add -ru as an attested dative/recipient suffix and specify its position relative to core arguments and verbal indexing; alternatively, use an already attested recipient construction if one is later established.",
+              "priority": 2
+            },
+            {
+              "issue": "The proposed default V–Patient–Recipient–Agent order is plausible and preserves verb-initial order and patient-before-agent ordering, but it is an unverified expansion of the documented unmarked VOS pattern.",
+              "type": "consistency_error",
+              "correction": "State more explicitly that VPRA is a dedicated ditransitive extension of VOS, or retain VOS ordering with the recipient placed in a separately defined oblique position.",
+              "priority": 3
+            },
+            {
+              "issue": "The glossing convention differs slightly from the specification's usual format: the grammar uses A.3 and O.3, whereas the translation uses 3.A and 3.O. This is understandable but inconsistent with the established gloss style.",
+              "type": "glossing_error",
+              "correction": "Use the established labels \"A.3=O.3=PROSP=give\" rather than \"3.A=3.O=PROSP=give\".",
+              "priority": 3
+            }
+          ]
+        },
+        "content_length": 1571,
+        "amended": true
+      },
+      {
+        "iteration": 3,
+        "qa_data": {
+          "overall_score": 6,
+          "issues": [
+            {
+              "issue": "The verbal clitics are written as a single unsegmented string, `saqiha`, although the grammar requires clitic-like verbal morphology to be joined with equals signs.",
+              "type": "grammatical_violation",
+              "correction": "Write the finite complex as `sa=qi=ha=!be.rum` (or an equivalently stressed and syllabified verb form), not `saqiha berum`.",
+              "priority": 1
+            },
+            {
+              "issue": "The newly coined content words lack the required or expected lexical stress marking and syllable punctuation. The explanation itself says the verb is patterned as `be.rum` and the noun as `wu.nem`, but the sentence writes `berum` and `wunemm`.",
+              "type": "phonological_violation",
+              "correction": "Give the coined lexical forms explicit standard orthography, for example `!be.rum` “give” and `!wu.nem` “water.” Low tone may remain unmarked, but stress and syllable boundaries should be supplied.",
+              "priority": 2
+            },
+            {
+              "issue": "Case morphology is not orthographically separated from the pronouns or the water noun. The grammar consistently joins nominal morphology with hyphens, while `wunemm`, `miru`, and `mika` obscure the proposed root-plus-suffix structure.",
+              "type": "consistency_error",
+              "correction": "Write the forms as `!wu.nem-m mi-ru mi-ka`. This also makes clear that the double `mm` is a root-final /m/ followed by the patientive suffix `-m` across a morpheme boundary.",
+              "priority": 2
+            },
+            {
+              "issue": "The dative suffix `-ru`, the free pronoun `mi`, and the dedicated VPRA ditransitive construction are entirely new grammatical material not supported by the supplied grammar. Although the proposed rules are internally coherent, they substantially extend the established system and do not explain how pronouns normally take case or why this dative construction is needed rather than an attested relator or incorporation strategy.",
+              "type": "grammatical_violation",
+              "correction": "Either explicitly present these as a justified grammar expansion with paradigms for pronoun case marking and ditransitive indexing, or use only established grammar. If retained, state that `mi` inflects regularly as `mi-ru` and `mi-ka`, and give the fully formatted construction `sa=qi=ha=!be.rum !wu.nem-m mi-ru mi-ka`.",
+              "priority": 1
+            },
+            {
+              "issue": "The gloss is broadly interpretable but does not reflect the actual written morphology accurately because the sentence lacks the equals signs, hyphens, stress marks, and syllable divisions represented by the gloss and word descriptions.",
+              "type": "glossing_error",
+              "correction": "Use a gloss aligned to the corrected form: `sa=qi=ha=!be.rum !wu.nem-m mi-ru mi-ka` / `A.3=O.3=PROSP=give water-ACC 3SG.ANIM-DAT 3SG.ANIM-AGT`.",
+              "priority": 2
+            }
+          ]
+        },
+        "content_length": 1332,
+        "amended": true
+      },
+      {
+        "iteration": 4,
+        "qa_data": {
+          "overall_score": 5,
+          "issues": [
+            {
+              "issue": "The translation introduces a dative suffix -ru and a dedicated ditransitive VPRA constituent order, neither of which is supported by the supplied grammar. The specification explicitly documents only agentive -ka and patientive/accusative -m as overt core-case morphology and gives VOS as the unmarked transitive order.",
+              "type": "grammatical_violation",
+              "correction": "Do not present -ru or VPRA as established grammatical rules without prior support. Use an attested construction if one exists, or clearly mark the recipient construction as a proposed extension rather than a translation following the given grammar.",
+              "priority": 1
+            },
+            {
+              "issue": "The claimed rule that the recipient is not verbally indexed is an unsupported addition to the argument-indexing system. The specification describes S, A, and O indexing, but it does not establish how a third participant in a ditransitive clause is treated.",
+              "type": "grammatical_violation",
+              "correction": "Either avoid asserting a fixed non-indexing rule for recipients or provide a construction demonstrably compatible with the documented S/A/O indexing system.",
+              "priority": 2
+            },
+            {
+              "issue": "The new free pronoun mi and its regular case inflection are not supported by the existing grammar. The specification documents third-person verbal indexes but does not provide a paradigm of free personal pronouns or rules licensing pronoun case suffixation.",
+              "type": "consistency_error",
+              "correction": "Introduce mi as a clearly proposed lexical and morphological extension with a stated pronoun paradigm, or use overt lexical noun phrases whose case behavior is already documented.",
+              "priority": 2
+            },
+            {
+              "issue": "The gloss uses PAT for -m, whereas the language description consistently characterizes -m as patientive/accusative and ordinarily glosses it as ACC. PAT is understandable but less consistent with the supplied glossing conventions.",
+              "type": "glossing_error",
+              "correction": "Gloss !wu.nem-m as water-ACC, or explicitly establish PAT as the preferred abbreviation and use it consistently throughout the grammar.",
+              "priority": 3
+            },
+            {
+              "issue": "The sentence semantically entails that the same third-person animate referent is both giver and recipient: 'he/she gives water to himself/herself.' This may be intended, but no reflexive interpretation or co-reference marking is identified.",
+              "type": "semantic_error",
+              "correction": "If different participants are intended, use distinct noun phrases or an explicit contrastive pronoun system. If self-transfer is intended, state that mi-ru and mi-ka are co-referential or introduce an appropriate reflexive form.",
+              "priority": 2
+            },
+            {
+              "issue": "The invented lexical forms !be.rum and !wu.nem are phonotactically well formed: both have permissible syllable structures, legal consonants, valid stress marking, and no apparent tone or cluster violation. However, their semantic class assignments have no grammatical effect in the sentence.",
+              "type": "consistency_error",
+              "correction": "This is not a phonological error, but if liquid-class status is relevant, show it through an attested class-sensitive modifier, demonstrative, or formal agreement construction where appropriate.",
+              "priority": 3
+            }
+          ]
+        },
+        "content_length": 1342,
+        "amended": true
+      },
+      {
+        "iteration": 5,
+        "qa_data": {
+          "overall_score": 6,
+          "issues": [
+            {
+              "issue": "The recipient suffix -ru and the associated dative/oblique construction are not attested anywhere in the supplied grammar. The grammar specifies only agentive -ka and patientive/accusative -m as overt core case markers, and it does not provide a recipient case or a rule for ditransitive clauses.",
+              "type": "grammatical_violation",
+              "correction": "Either use an attested construction for the recipient if one is available in the intended source material, or explicitly present -ru as a clearly hypothetical grammatical extension rather than as an established translation rule. If extensions are disallowed, the sentence cannot be fully licensed by the provided grammar.",
+              "priority": 1
+            },
+            {
+              "issue": "The statement that the recipient oblique follows the VOS core is an unsupported syntactic generalization. The specification establishes VOS for transitive clauses, but gives no evidence for the placement of additional oblique arguments.",
+              "type": "consistency_error",
+              "correction": "State only that the proposed recipient phrase is placed after the VOS core as a tentative extension, rather than claiming that this placement follows an established ditransitive pattern.",
+              "priority": 2
+            },
+            {
+              "issue": "The lexical items for 'give,' 'water,' 'man,' and 'woman' are newly coined rather than drawn from the provided lexicon. Their forms are phonologically plausible, but their semantic classes are not documented.",
+              "type": "lexical_error",
+              "correction": "Record !wu.nem as liquid-class by default and !na.lu and !si.ma as animate-class by default if these are to be integrated into the lexicon. This is not required for the unmarked noun phrases in the sentence, but it would make the new vocabulary more fully consistent with the class system.",
+              "priority": 3
+            }
+          ]
+        },
+        "content_length": 1039,
+        "amended": true
+      },
+      {
+        "iteration": 6,
+        "qa_data": {
+          "overall_score": 7,
+          "issues": [
+            {
+              "issue": "The recipient marking -ru and the associated post-core recipient placement are not licensed by the supplied grammar. The specification explicitly describes only agentive -ka and patientive/accusative -m among overt core cases and provides no dative, recipient index, or ditransitive construction. The result correctly labels this as a hypothetical extension, but it therefore cannot be treated as an attested translation under the given grammar.",
+              "type": "grammatical_violation",
+              "correction": "Use an independently attested recipient/benefactive construction if one is supplied, or present the sentence explicitly as a proposed grammatical extension rather than as a fully grammar-supported translation. If retaining the proposal, -ru should be documented as a productive oblique case and its interaction with number, incorporation, evidentials, and ditransitive indexing should be specified.",
+              "priority": 1
+            },
+            {
+              "issue": "The gloss labels -ru as DAT even though that morpheme is newly introduced and unattested in the language specification. The gloss is internally consistent with the proposed rule, but it gives the appearance of established grammatical status.",
+              "type": "glossing_error",
+              "correction": "Mark the gloss or accompanying analysis as proposed, for example WOMAN-REC.PROPOSED or WOMAN-DAT.PROPOSED, until -ru is established as part of the grammar.",
+              "priority": 3
+            }
+          ]
+        },
+        "content_length": 1171,
+        "amended": true
+      },
+      {
+        "iteration": 7,
+        "qa_data": {
+          "overall_score": 10,
+          "issues": []
+        },
+        "content_length": 510,
+        "amended": false
+      }
+    ]
+  }
+}
